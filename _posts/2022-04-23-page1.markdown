@@ -36,9 +36,6 @@ date: 2022-03-15 12:35:04 +0900
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
-
-{%- comment -%} 무슨 소리야? {%- endcomment -%}
-
 <!-- outline-start -->
 
 개요가 시작됩니다 
