@@ -39,8 +39,8 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "リンク"
-    info: "リンクページの説明はこちら。"
+    header: "링크"
+    info: "페이지 운영자의 모든 페이지를 정리합니다😄"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
