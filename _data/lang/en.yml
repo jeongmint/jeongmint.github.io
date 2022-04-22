@@ -14,43 +14,43 @@ lng:
     msg_site: To English home page
 
 date:
-  long: "%b %-d, %Y"
+  long: "%Y.%m.%d"
   day: "%d"
   year: "%Y"
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: Page not found
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  header: 페이지를 찾을 수 없습니다.
+  line1: 요청하신 페이지를 찾을 수 없습니다.
+  line2: 다른 메뉴를 시도하거나, 다른 단어로 검색을 시도하세요.
 
-no_translation_tooltip: No Translation
+no_translation_tooltip: 해당 언어는 지원되지 않습니다.
 
 navigation:
-  brand_sub_text: Jekyll theme
+  brand_sub_text: 최정민 <br> 작지만 용감한 TA <br> 🏜️
   contact_header: Contact
 
-color_scheme_switch_tooltip: Color scheme
+color_scheme_switch_tooltip: 모드 설정
 
 search:
-  placeholder: Search
-  noResultText: No results found.
+  placeholder: 검색
+  noResultText: 해당 결과를 찾을 수 없습니다.
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: 해당 이미지를 로드할 수 없습니다.
 
 copyright:
-  additional_text: " All rights reserved."
+  additional_text: " 저작권으로부터 보호받고 있습니다. "
 
 creative_commons:
-  some_rights_reserved: Some rights reserved.
+  some_rights_reserved: All rights reserved.
   # check _data/owner.yml for license type.
-  by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
-  by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
-  by-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-  by-nc: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-  by-nc-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-  by-nc-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+  by: 특별히 명시되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈 표시 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by -nd: 특별히 명기되어 있지 않은 한 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈 표시 - 변경 금지 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by-sa: 특별히 명시되지 않은 한 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈 표시 - 계승 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by - nc: 특별히 명시되어 있지 않은 한 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈 표시 - 비영리 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by -nc -nd: 특별히 명기되어 있지 않은 한 이 웹 사이트의 콘텐츠는 크리에이티브 커먼즈 표시 - 비영리 - 수정 금지 4.0 국제 라이선스 하에 제공되고 있습니다.
+  by - nc-sa: 특별히 명시되어 있지 않은 한, 이 웹사이트의 콘텐츠는 크리에이티브 커먼즈 표시 - 비영리 - 계승 4.0 국제 라이선스 하에 제공되고 있습니다.
 
 # for 404 layout
 not-found:
@@ -59,80 +59,79 @@ not-found:
 # for post layout
 post:
   read_time:
-    unit: " min"
-    text: " read"
+    unit: "분"
+    text: "이 소요됩니다📖"
   pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    older_post: "← 이전 글"
+    newer_post: "다음 글 →"
+    first_post: 첫 게시글
+    last_post: 마지막 게시글
   comments:
     disqus:
-      count_title: Comments
-      noscript: Please enable JavaScript to view the Comments.
-      click_to_load: "Load Comments"
+      count_title: 댓글
+      noscript: 댓글을 표시하려면 자바 스크립트를 활성화해 주세요.
+      click_to_load: "댓글 표시하기"
       consent:
-        title: Comments (Disqus.com)
+        title: 댓글 (Disqus.com)
         text: >
-          Comment feature is hosted by a third party. By showing the external content you accept the $terms and $privacy_policy of disqus.com.
-          <br>If you prefer to opt out of targeted advertising, open $settings_link and click "opt-out" button and close. Return here and load comments.
-        terms_link_text: Terms of Service
-        privacy_link_text: Privacy Policy
-        settings_link_text: this link
+          주석 기능은 서드파티에 의해 호스트되고 있습니다. 외부 컨텐츠를 표시함으로써, disqus.com의 $terms 와 $privacy_policy에 동의한 것입니다.<br> 타깃을 좁힌 광고를 옵트아웃 할 경우, $settings_link를 열고 "opt-out" 버튼을 선택하여 닫습니다. 해당 페이지로 돌아가서 댓글을 표시해 주세요.
+        terms_link_text: 이용약관
+        privacy_link_text: 개인정보보호 정책
+        settings_link_text: 설정
         button:
-          load_once: Show only this time
-          load_and_do_not_ask_again: Always show
+          load_once: 이번만 표시
+          load_and_do_not_ask_again: 항상 보기
   table_of_contents:
-    heading: Contents
+    heading: 제목
     tooltip:
-      move: Drag to move
-      close: Close
+      move: 드래그하여 이동
+      close: 닫기
   share:
-    heading: Share on
-    link_copied: Link copied!
+    heading: 공유하기
+    link_copied: 링크가 복사되었습니다!
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
       facebook: Facebook
       telegram: Telegram
       linkedin: LinkedIn
-      email: Email
-      copy_link: Copy link
+      email: 이메일
+      copy_link: 링크 복사
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Board
+  button_name: Board
   upside_down_tabs:
     tab:
       all: All
-      categories: Categories
+      categories: Category
       tags: Tags
       years: Years
-      clear: Clear
-      close: Close
+      clear: 초기화
+      close: 닫기
       tooltip:
-        clear: Clear
-        close: Close
+        clear: 초기화
+        close: 닫기
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Tag
+        tags: Tags
         category: Category
-        year: Year
+        year: Years
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: Welcome
+  title: 작지만 용감한 TA
   button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  new_posts_title: 새로운 게시글 🐱
+  new_posts_show_more_button: 더 보기 ...
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
-  top_header_line1: "Welcome To"
+  top_header_line1: "$site_brand"
   # if commented, top header will be a single line
-  top_header_line2: "$site_brand Theme"
+  # top_header_line2: ""
 
 # for archives layout
 archives:
@@ -144,7 +143,7 @@ archives:
 about:
   title: About
   button_name: About
-  sub_title: "Awesome jekyll theme"
+  sub_title: "Junior Technical Artist"
   email_title: email
 
 # for links layout
@@ -158,8 +157,8 @@ links:
 projects:
   title: Projects
   button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+  read_more_text: 자세히 보기
+  read_less_text: 접기
 
 # for privacy-policy layout
 privacy-policy:
