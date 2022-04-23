@@ -167,14 +167,14 @@ privacy-policy:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: &meta_info $site_brand is a multilingual theme generated with Jekyll and fully compatible with GitHub Pages.
+meta_common_description: Technical Artist | 우당탕탕 주니어 TA 기록장
 
 auto_content:
-  title: Sample post (auto generated)
-  greeting: Hello!
-  text: *meta_info
-  more_info: Learn More.
-  auto_generated_text: This is an auto generated sample content for display in the selected language.
+  title: TA는 정말 어떻게 되는 걸까?
+  greeting: Jeong Min's Blog
+  # text: *meta_info
+  # more_info: Learn More.
+  auto_generated_text: UE5(UE4), 그래픽 최적화, Shader(HLSL/GLSL), VFX(Houdini), MAYA 를 공부합니다🐤 
 
 
 cookie_consent:
