@@ -50,9 +50,9 @@
 
 .thumbnails > .excerpt-holder > p {
   font-weight: 300;
-  font-size: 2.0rem;
-  /* excerpt text color var(--thumbnail-excerpt-text-color) */
-  color: darkolivegreen;
+  font-size: 1.5rem;
+  /* excerpt text color */
+  color: var(--thumbnail-excerpt-text-color);
 }
 
 /* make meta element clickable (ex: comment links) */
