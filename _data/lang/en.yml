@@ -27,7 +27,7 @@ not_found:
 no_translation_tooltip: 해당 언어는 지원되지 않습니다.
 
 navigation:
-  brand_sub_text: 최정민 <br> 작지만 용감한 TA <br> 🏜️
+  brand_sub_text: The Brave Artist🏜️<br>최정민
   contact_header: Contact
 
 color_scheme_switch_tooltip: 모드 설정
@@ -124,7 +124,7 @@ post-list:
 
 # for home layout
 home:
-  title: 작지만 용감한 TA
+  title: UE5 수련장
   button_name: Home
   new_posts_title: 새로운 게시글 🐱
   new_posts_show_more_button: 더 보기 ...
@@ -141,8 +141,8 @@ archives:
 
 # for about layout
 about:
-  title: About
-  button_name: About
+  title: Me
+  button_name: Me
   sub_title: "Junior Technical Artist"
   email_title: email
 
@@ -167,14 +167,14 @@ privacy-policy:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: Technical Artist | 우당탕탕 주니어 TA 기록장
+meta_common_description: Technical Artist | UE5 수련장
 
 auto_content:
-  title: TA는 정말 어떻게 되는 걸까?
-  greeting: Jeong Min's Blog
-  # text: *meta_info
+  # title: TA는 정말 어떻게 되는 걸까?
+  greeting: Technical Artist |
+  text: UE5(UE4), 그래픽 최적화, Shader(HLSL/GLSL), VFX(Houdini), MAYA 를 공부합니다🐤
   # more_info: Learn More.
-  auto_generated_text: UE5(UE4), 그래픽 최적화, Shader(HLSL/GLSL), VFX(Houdini), MAYA 를 공부합니다🐤 
+  auto_generated_text: 주니어 TA로 살아남기 위한 수련장입니다 🏜️ 
 
 
 cookie_consent:
