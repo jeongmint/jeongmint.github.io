@@ -167,14 +167,14 @@ privacy-policy:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: Technical Artist | UE5 수련장
+# meta_common_description: Technical Artist | UE5 수련장
 
 auto_content:
   # title: TA는 정말 어떻게 되는 걸까?
   greeting: Technical Artist |
   text: UE5(UE4), 그래픽 최적화, Shader(HLSL/GLSL), VFX(Houdini), MAYA 를 공부합니다🐤
   # more_info: Learn More.
-  auto_generated_text: 주니어 TA로 살아남기 위한 수련장입니다 🏜️ 
+  auto_generated_text: 주니어 TA로 살아남기...
 
 
 cookie_consent:
