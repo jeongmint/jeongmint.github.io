@@ -33,17 +33,18 @@ html {
   overflow-y: auto;
   /* font size base definition */
   font-size: 12px;
+  line-height: 1.2rem;
 }
 
 @media (max-width: 500px) {
   html {
-    font-size: 11px;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 400px) {
   html {
-    font-size: 10px;
+    font-size: 1.0rem;
   }
 }
 
@@ -102,8 +103,6 @@ a:hover {
 
 p {
   font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.5;
 }
 
 ul,
