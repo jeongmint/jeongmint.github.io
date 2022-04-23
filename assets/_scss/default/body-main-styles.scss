@@ -21,7 +21,10 @@ h5,
 h6,
 input,
 textarea,
-select { font-family: 'Noto Sans KR', sans-serif; }
+select,
+p { 
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
 :root {
   @include get_scheme(body-main-styles-colors-);
@@ -32,19 +35,19 @@ html {
   height: 100%;
   overflow-y: auto;
   /* font size base definition */
-  font-size: 12px;
-  line-height: 1.2rem;
+  font-size: 0.96rem;
+  line-height: 1.2;
 }
 
 @media (max-width: 500px) {
   html {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 }
 
 @media (max-width: 400px) {
   html {
-    font-size: 1.0rem;
+    font-size: 0.64rem;
   }
 }
 
