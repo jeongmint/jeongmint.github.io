@@ -5,4 +5,5 @@ layout: robot
 ---
 
 User-agent: *
-Allow: 
+Allow: /
+Sitemap: https://jeongmint.github.io/sitemap.xml
