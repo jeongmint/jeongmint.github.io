@@ -32,18 +32,18 @@ html {
   height: 100%;
   overflow-y: auto;
   /* font size base definition */
-  font-size: 13px;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 500px) {
   html {
-    font-size: 11px;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 400px) {
   html {
-    font-size: 10px;
+    font-size: 1.0rem;
   }
 }
 
@@ -69,15 +69,15 @@ h6 {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
 }
 
 h2 {
-  font-size: 2.64rem;
+  font-size: 2.46rem;
 }
 
 h3 {
-  font-size: 2.32rem;
+  font-size: 2.3rem;
 }
 
 h4 {
@@ -85,11 +85,11 @@ h4 {
 }
 
 h5 {
-  font-size: 2.1rem;
+  font-size: 2.0rem;
 }
 
 h6 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 a {
@@ -102,7 +102,8 @@ a:hover {
 
 p {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 
 ul,
