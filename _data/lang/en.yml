@@ -100,8 +100,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Board
-  button_name: Board
+  title: Study
+  button_name: Study
   upside_down_tabs:
     tab:
       all: All
@@ -155,8 +155,8 @@ links:
 
 # for projects layout
 projects:
-  title: Projects
-  button_name: Projects
+  title: Porfolio
+  button_name: Portfolio
   read_more_text: 자세히 보기
   read_less_text: 접기
 
