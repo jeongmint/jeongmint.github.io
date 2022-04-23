@@ -32,18 +32,18 @@ html {
   height: 100%;
   overflow-y: auto;
   /* font size base definition */
-  font-size: 1.2rem;
+  font-size: 10px;
 }
 
 @media (max-width: 500px) {
   html {
-    font-size: 1.1rem;
+    font-size: 9px;
   }
 }
 
 @media (max-width: 400px) {
   html {
-    font-size: 1.0rem;
+    font-size: 8px;
   }
 }
 
