@@ -41,6 +41,8 @@
   margin-left: -15px;
 }
 
+/* Update fonts read easily */
+
 .markdown-style p,
 .markdown-style ul,
 .markdown-style ol,
@@ -48,12 +50,12 @@
   font-weight: 400;
   font-size: 1.56rem;
   letter-spacing: 1px;
-  word-spacing: 3px;
+  word-spacing: 2px;
 }
 
 .markdown-style p {
 
-  line-height: 2.4;
+  line-height: 1.4;
 
 }
 
