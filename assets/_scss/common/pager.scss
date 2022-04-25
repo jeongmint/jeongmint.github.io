@@ -3,10 +3,15 @@
  * Licensed under MIT
 */
 
+.pagination a {
+  color: #5D776E;
+}
+
 /* common for post, post-list */
 .pagination_wrapper {
   @include get_scheme(bootstrap-dark-pagination-colors-);
   text-align: center;
+  color: #5D776E;
 }
 
 .pagination_wrapper nav {
@@ -35,4 +40,6 @@
 .pagination > li.active > a,
 .pagination > li.active > a:hover {
   z-index: 0;
+  background-color: #5D776E;
+  border-color: #5D776E;
 }

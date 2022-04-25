@@ -34,7 +34,7 @@ $anchor-text-color-dark: #63F2BE;
 // default/contact
 %contact-colors-dark {
   --contact-icons-color: #{$button-color-dark};
-  --contact-icons-hover-color: #cfcfcc;
+  --contact-icons-hover-color: #{$brand-color-dark};
   --contact-header-color: #{$button-color-dark};
 }
 // default/default
@@ -97,13 +97,11 @@ $anchor-text-color-dark: #63F2BE;
   // to invert svg
   -webkit-filter: invert(100%);
   filter: invert(100%);
-  //--searchbox-border-color: #cfcfcf;
-  //--searchbox-background-color: #e6e6e6;
+  // inverted
+  --searchbox-focus-border-color: #ff4050;
+  --searchbox-focus-shadow-color: #b30413;
   --searchbox-focus-background-color: #d5d5d5;
   --searchbox-focus-text-color: #3f3f3f;
-  //inverted
-  --searchbox-focus-border-color: #f17d4f;
-  --searchbox-focus-shadow-color: #e8a78ea0;
 }
 // default/searchresult
 %searchresult-colors-dark {
@@ -154,9 +152,9 @@ $anchor-text-color-dark: #63F2BE;
   --markdown-styles-blockquote-background-color: #333;
   --markdown-styles-blockquote-side-color: #{$brand-color-dark};
   --markdown-styles-kbd-background-color: #735B4D;
-  --markdown-styles-kbd-text-color: #D9A577;
-  --markdown-styles-code-background-color: #333;
-  --markdown-styles-code-text-color: #abacaa;
+  --markdown-styles-kbd-text-color: #ffd195;
+  //--markdown-styles-code-background-color: #333;
+  //--markdown-styles-code-text-color: #abacaa;
   --markdown-styles-quote-background-color: #3E5950;
   --markdown-styles-quote-text-color: #AEF4DA;
 }
@@ -164,7 +162,7 @@ $anchor-text-color-dark: #63F2BE;
 // common/post-info
 %post-info-colors-dark {
   --post-title-text-color: #{$header-color-dark};
-  --post-meta-text-color: #b0afaf;
+  --post-meta-text-color: #{$brand-color-dark};
 }
 // common/share
 %share-colors-dark {

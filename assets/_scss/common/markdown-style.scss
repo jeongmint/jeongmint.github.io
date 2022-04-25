@@ -49,7 +49,7 @@
 .markdown-style li p {
   font-weight: 400;
   font-size: 1.58rem;
-  word-spacing: 0.28rem;
+  word-spacing: 0.24rem;
 }
 
 .markdown-style p {
@@ -81,6 +81,7 @@
 
 .markdown-style blockquote {
   text-align: justify;
+  font-style: italic;
   border-left: 2px solid;
   border-right: 2px solid;
   margin-left: calc(-1 * var(--text-spacing));
@@ -93,6 +94,7 @@
 }
 
 /* bootstrap color overrides */
+/* modify title line height */ 
 .markdown-style > h1,
 .markdown-style > h2,
 .markdown-style > h3,
@@ -100,6 +102,7 @@
 .markdown-style > h5,
 .markdown-style > h6 {
   color: var(--markdown-styles-header-text-color);
+  line-height: 2.4;
 }
 
 .markdown-style .table-striped > tbody > tr:last-child {
