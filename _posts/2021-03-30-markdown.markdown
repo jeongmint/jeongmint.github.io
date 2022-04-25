@@ -1,15 +1,15 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_markdown
-title: "[Git Blog] Markdown Syntax"
+title: "[Github] Markdown Syntax"
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
 # author: Mr. Green's Workshop
 # multiple category is not supported
-category: Git Blog
+category: Github
 # multiple tag entries are possible
-tags: [Git Blog, Markdown]
+tags: [Github, Git Blog, Jekyll, Markdown]
 # thumbnail image for post
 img: ":cry01.jpg"
 # disable comments on this page
@@ -40,6 +40,9 @@ date: 2021-03-30 23:59:06 +0900
 <!-- outline-start -->
 
 # 마크다운 문법을 정리합니다 !
+
+깃허브 블로그에서는 마크다운 문법이 활성화되어 있습니다. 마크다운에서 사용하는 문법은 코드 블록으로 적었으며, 결과값은 그 아래 나타납니다.
+
 
 ## 1. Headings(제목)
 
@@ -79,7 +82,7 @@ date: 2021-03-30 23:59:06 +0900
 
 ## 2. Paragraphs(문단)
 
-* 마크다운 문법은 한 줄 씩 띄어서 작성하는 것이 원칙이며 제목과 문단 조합을 사용하기 위해서는 다음과 같이 사용
+* 마크다운 문법은 한 줄 씩 띄어서 작성하는 것이 원칙이며 제목과 문단 조합을 사용하기 위해서는 다음과 같이 사용합니다.
 
 ```markdown
 
@@ -97,7 +100,7 @@ date: 2021-03-30 23:59:06 +0900
 
 ============ <br/><br/>
 
-* 제목을 # 외에 '=' 혹은 '-' 를 사용하여 나타낼 수 있음
+* 제목을 # 외에 '=' 혹은 '-' 를 사용하여 나타낼 수 있습니다.
 
 ```markdown
 
@@ -128,7 +131,7 @@ h2
 
 * 문단 상에서 엔터를 여러 번 친다고 개행이 되지 않기 때문에 강제 개행을 위해서는 <br/>
 <
-br/> 태그를 사용
+br/> 태그를 사용해야 합니다.
 
 ```markdown
 
@@ -159,7 +162,7 @@ br/> 태그를 사용
 ```markdown
 
 이탤릭체는 *Italic* 혹은 _Italic_ 처럼
-하나의 '*' 혹은 '_'를 문자 양 옆에 사용
+하나의 '*' 혹은 '_'를 문자 양 옆에 사용합니다.
 
 ```
 
@@ -168,16 +171,16 @@ br/> 태그를 사용
 ```markdown
 
 볼드체는 **Bold** 혹은 __Bold__ 처럼
-두 개의 '**' 혹은 '__'를 문자 양 옆에 사용
+두 개의 '**' 혹은 '__'를 문자 양 옆에 사용합니다.
 
 ```
 
-### - __*(Italic & Bold)이탤릭 & 볼드체 동시 사용*__
+### - __*(Italic & Bold)이탤릭 & 볼드체를 한 번에*__
 
 ```markdown
 
 이탤릭과 볼드체를 동시에 사용하기 위해
-__*Italic & Bold*__ 사용
+__*Italic & Bold*__ 사용해야 합니다
 
 ```
 
@@ -186,7 +189,7 @@ __*Italic & Bold*__ 사용
 ```markdown
 
 밑줄은 <u>Highlight it!</u> 처럼
-태그 <u>를 문자 양 옆에 사용
+태그 <u>를 문자 양 옆에 사용해야 합니다.
 
 ```
 
@@ -195,7 +198,7 @@ __*Italic & Bold*__ 사용
 ```markdown
 
 취소선은 ~~Cancel it!~~ 처럼
-두 개의 물결 '~~'을 문자 양 옆에 사용
+두 개의 물결 '~~'을 문자 양 옆에 사용합니다.
 
 ```
 
@@ -229,7 +232,7 @@ __*Italic & Bold*__ 사용
 ### ' \* '와 ' \_ '를 문자로 사용하고 싶을 때
 
 해당 문자를 이탤릭체가 아닌 텍스트 문자로 사용하고자 할 때는<br/>
-이스케이프 문자 ' \ '를 이용
+이스케이프 문자 ' \ '를 이용합니다.
 
 ```
 이스케이프 문자로 양 옆에 *과 _ 표시하기
@@ -252,7 +255,11 @@ __*Italic & Bold*__ 사용
 <br/>
 
 ## 5. Blockquotes(인용구)
-- 단일인용 : '>' 를 사용하여 표현
+
+Markdowm의 인용구에는 단일인용과 중첩이용이 있습니다.
+단일인용을 사용했을 때 문장이나 문단이 길어지면 영역이 제한되고 자동으로 스크롤 바가 생깁니다.
+
+- 단일인용 : '>' 를 사용하여 표현합니다.
 ```
 느낌이 오잖아 떨리고 있잖아 언제까지 눈치만 볼 거니 네 맘을 말해봐 딴청 피우지 말란 말이야 네 맘 가는 그대로 지금 내 손을 잡아
 ```
@@ -261,7 +268,7 @@ __*Italic & Bold*__ 사용
 네 맘을 말해봐 딴청 피우지 말란 말이야
 네 맘 가는 그대로 지금 내 손을 잡아
 
-- 중첩인용 : '>' 를 중첩해서 사용
+- 중첩인용 : '>' 를 중첩해서 사용합니다.
 ```
 > 우연히 고개를 돌릴 때 마다 눈이 마주치는 건 몇일밤 내내 꿈속에 나타나 밤새 나를 괴롭히는 건
 >> 그 많은 빈자리 중에서 하필 내 옆자릴 고르는 건 나도 모르게 어느새 실없는 웃음 흘리고 있다는 건
@@ -279,8 +286,8 @@ __*Italic & Bold*__ 사용
 ## 6. Lists(리스트)
 
 ### 순서가 있는 리스트(Ordered)
-- 정렬된 숫자 뒤에 '.' 붙여 사용
-( 0 이상의 정수여야 함 )
+- 정렬된 숫자 뒤에 '.' 붙여 사용합니다.
+( 0 이상의 정수여야 합니다. )
 
 ```
 1. 순서 1
@@ -292,7 +299,7 @@ __*Italic & Bold*__ 사용
 3. 순서 3
 ---
 
-- 공백을 활용하여 중첩리스트 표현
+- 공백을 활용하여 중첩리스트를 표현합니다.
 
 ```
 1. 순서 1
@@ -340,11 +347,12 @@ __*Italic & Bold*__ 사용
 - 리스트 1
 - 리스트 2
 
-모두 동일하게 표현되기 때문에 어떤 것을 사용하여도 무방
+모두 동일하게 표현되기 때문에 어떤 것을 리스트의 마커로 사용하여도 무방합니다. 저는 보통 * 를 사용합니다.  
+Markdown에서는 아래와 같이 중첩리스트도 가능합니다.
 
 ---
 
- * 2 개의 공백(space)만을 삽입하여 중첩리스트 표현
+ * 2 개의 공백(space)만을 삽입하여 중첩리스트를 표현합니다.
 ```
 - 리스트 1
 (space)(space)- 리스트 2
@@ -355,7 +363,7 @@ __*Italic & Bold*__ 사용
     - 리스트 3
 <br/>
 
-* 2 개를 사용하지 않고 1개의 공백을 사용하면 다음과 같이 하나의 계층으로 출력
+* 2 개를 사용하지 않고 1개의 공백을 사용하면 다음과 같이 하나의 계층으로 출력됩니다.
 
 ```
 - 리스트 a
@@ -372,7 +380,7 @@ __*Italic & Bold*__ 사용
      - 리스트 e 
 
 ---
-* 리스트와 인용구를 활용하여 다음과 같이 작성 가능, 그러나 빈 리스트가 존재할 때는 빈 리스트가 어느 상황에서든 출력되지 않음
+* 리스트와 인용구를 활용하여 다음과 같이 작성이 가능합니다. 그러나 빈 리스트가 존재할 때는 해당 빈 리스트가 어느 상황에서든 출력되지 않습니다.
 
 ```
 * 리스트 a
@@ -391,7 +399,7 @@ __*Italic & Bold*__ 사용
 
 ### Task Lists
 
-* 리스트를 활용하여 작업 목록 체크리스트를 대괄호 []를 리스트의 숫자 대신 붙여 작성할 수 있음
+* 리스트를 활용하여 작업 목록 체크리스트를 대괄호 []를 리스트의 숫자 대신 붙여 작성할 수 있습니다.
 
 ```
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
@@ -412,9 +420,9 @@ __*Italic & Bold*__ 사용
 
 ## 7. Code(코드 작성)
 
-* Syntax highlighting 이라고도 하며 IDE와 동일하게 구문 강조 라이브러리 사용이 가능
+* Markdown에서 코드 작성은 Syntax highlighting 이라고도 하며 IDE와 동일하게 구문 강조 라이브러리 사용이 가능합니다.
 
-type `nano` 즉, ``` 기호를 쓰고자 하는 언어 앞에 붙이고 다음과 같이 작성
+type `nano` 즉, ``` 기호를 쓰고자 하는 언어 앞에 붙이고 다음과 같이 작성합니다. 
 
 * C 언어
 
@@ -468,7 +476,7 @@ int main(){
 <br>
 
 ## 8. Horizontal Rules(줄표 넣기)
-* 줄표를 넣으려면 한 줄에 세 개 이상의 별표(***), 대시(---) 또는 밑줄(__) 사용
+* 줄표를 넣으려면 한 줄에 세 개 이상의 별표(***), 대시(---) 또는 밑줄(__)을 사용해야 합니다. 저는 보통 (---)를 사용합니다.
 
 
 ```
@@ -490,39 +498,33 @@ _________________
 
 ## 9.  Links(링크 걸기)
 
-* 링크 텍스트를 대괄호(예: [Twitch])로 묶은 다음 즉시 URL을 괄호 안에 삽입 <br>(예: (https://www.twitch.tv/)
+* 링크 텍스트를 대괄호(예: [Twitch])로 묶은 다음 즉시 URL을 괄호 안에 삽입하는 것이 가능합니다. <br>(예: (https://www.twitch.tv/sal_gu)
 
 ```
-[Twitch](https://www.twitch.tv/)
+[살인마협회장 - Twitch](https://www.twitch.tv/sal_gu)
 ```
-[Twitch](https://www.twitch.tv/)
+[살인마협회장 - Twitch](https://www.twitch.tv/sal_gu)
 
 ---
 
 <br>
 
-* 위 방법이 귀찮거나 더 빠른 방법을 원한다면 URL 및 이메일 주소에 바로 사용하거나, 꺾쇠 사용
+* 위 방법이 귀찮거나 더 빠른 방법을 원한다면 URL 및 이메일 주소에 꺾쇠를 사용합니다. 원래 Github 상의 Markdown에서는 꺾쇠를 붙이지 않고도 자동으로 링크가 형성이 되는데 깃허브 블로그는 안 되나 봅니다.
 
 ```
-[자동 링크]
-www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
-
 [꺾쇠 링크]
-<https://jieuninus.com/> <br>
-<jeongmint@kakao.com>
+<https://www.ssunivs.com> <br>
+<tangerine_t@naver.com>
 ```
-[자동 링크]<br>
-www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
-
 [꺾쇠 링크]<br>
-<https://jieuninus.com/> <br/>
-<jeongmint@kakao.com>
+<https://www.ssunivs.com> <br/>
+<tangerine_t@naver.com>
 
 ---
 <br>
 
-* 링크 뒤에 괄호() 나 큰따옴표""로 문자를 삽입하면 설명(title)을 다는 것이 가능, 다음과 같이 모든 링크 형식을 정리할 수 있음
-
+* 링크 뒤에 괄호() 나 큰따옴표""로 문자를 삽입하면 설명(title)을 다는 것이 가능합니다. 모든 링크 형식을 정리해 본다면 다음과 같습니다.
+  
 ```
 [1]: https://madeedam.com/
 [1]: https://madeedam.com/ "New IU Fan Products"
@@ -552,7 +554,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 형식 : ![Image id](url)
 ```
 
-* 이미지 추가는 느낌표(!)를 대체 텍스트의 대괄호 앞에 붙인 후, 경로 또는 URL을 괄호 안에 삽입(링크와 마찬가지로 괄호() 나 큰따옴표""를 통해 설명(title)을 달 수 있음)
+* 이미지 추가는 느낌표(!)를 대체 텍스트의 대괄호 앞에 붙인 후, 경로 또는 URL을 괄호 안에 삽입하여 나타냅니다. (위에서 설명한 URL 링크와 마찬가지로 괄호() 나 큰따옴표""를 통해 설명(title)을 달 수 있습니다.)
 
 ```
 ![LILAC](https://user-images.githubusercontent.com/39428260/112938741-2695ad80-9165-11eb-850a-dfbe7c20fee0.jpg)
@@ -560,7 +562,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 
 ![LILAC](https://user-images.githubusercontent.com/39428260/112938741-2695ad80-9165-11eb-850a-dfbe7c20fee0.jpg)
 
-* 이미지 링크를 만들기 위해서는 전체 대괄호를 만들어 뒤에 링크를 삽입
+* 이미지 링크를 만들기 위해서는 전체 대괄호를 만들어 뒤에 링크를 삽입합니다.
 
 ```
 [![buying-albums](https://user-images.githubusercontent.com/39428260/112939323-3792ee80-9166-11eb-9df3-0e1e1a2725f7.jpg)"앨범 구매하러 가기"](http://www.hottracks.co.kr/ht/record/detail/2300186089126)
@@ -571,7 +573,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 <br>
 
 ## 11. Escaping Characters(탈출문자)
-* 앞의 4. Emphasis에서 잠깐 언급한 바 있는데, 문법에서 사용되는 문자를 텍스트로 표현하기 위해 문자 앞에 백슬래시(\)를 추가하는 것을 말함
+* 앞의 4. Emphasis에서 잠깐 언급한 바 있는데, 문법에서 사용되는 문자를 텍스트로 표현하기 위해 문자 앞에 백슬래시(\)를 추가하는 것을 말합니다.
 
 
 ```
@@ -588,7 +590,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 [백슬래시 사용 후]
 \*백슬래시를 사용하여 (*)를 탈출시켜 보자!
 
-* 그 밖의 탈출문자를 사용해야 하는 문자 모음
+* 그 밖의 탈출문자를 사용해야 하는 문자들을 표로 만들어 두었습니다.
 
 |**Character**|**Name**|
 |------|---|
@@ -615,7 +617,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 
 ## 12. Tables(표)
  
-* 마크다운에서는 앞서 정리한 탈출문자 중 파이프 기호 ' | ' 와 하이픈 ' - '을 사용하여 표를 나타냄
+* Markdown에서는 앞서 정리한 탈출문자의 표에서 보았듯이 파이프 기호 ' | ' 와 하이픈 ' - '을 사용하여 표를 나타냅니다.
 
 ```
 | 동물 | 울음소리 |
@@ -631,7 +633,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 
 <br>
 
-* 정렬은 칼럼을 두고 싶은 방향으로 콜론 ' : ' 기호를 추가 
+* 정렬 기능 또한 구현이 가능한데 정렬은 칼럼을 두고 싶은 방향으로 콜론 ' : ' 기호를 추가하면 됩니다.
 
 ```
 [왼쪽 정렬]
@@ -689,11 +691,11 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 <br><br>
 
 ## 13. HTML
-* HTML은 마크다운에서 자주 사용되는 언어기 때문에 HTML 태그 사용이 빈번
+* HTML은 Markdown에서 자주 사용되는 언어기 때문에 HTML 태그 사용이 빈번합니다.
 
-* 사용하는 방법은 새로운 줄에세 HTML 태그(예: \<div>, \<table>, \<pre>, \<p>)를 삽입
+* Markdown에서 사용하는 방법은 새로운 줄에세 HTML 태그(예: \<div>, \<table>, \<pre>, \<p>)를 삽입해야 합니다.
 
-* 주로 마크다운 문법에서 HTML을 사용하는 목적은 텍스트 색상, 이미지 너비 변경에 있음
+* 주로 마크다운 문법에서 HTML을 사용하는 목적은 텍스트 색상, 이미지 너비를 변경하기 위함입니다.
 
 ### - HTML 로 텍스트 변경
 
@@ -743,10 +745,15 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 <img src="https://user-images.githubusercontent.com/39428260/112941600-d4a35680-9169-11eb-8cfc-dbbe6b4bdf81.jpg" width="20%" height="20%" alt="Markdown Logo">
 </img>
 
-<br><br>
+</br></br>
 
-* 하지만 마크다운 문법에서는 허용되지 않는 RAW HTML 태그가 존재
-* GFM는 태그 필터를 사용하고 HTML 출력을 렌더링할 때 다음 HTML 태그가 필터링되는데 여기서 [사용불가] 처리한 태그는 마크다운 문법에서 사용할 수 없음
+* 하지만 마크다운 문법에서는 허용되지 않는 RAW HTML 태그가 존재합니다. 그렇기에 이를 해결하기 위해 `GFM`는 태그 필터를 사용하고 HTML 출력을 렌더링할 때 다음 HTML 태그가 필터링되는데 여기서 [사용불가] 처리한 태그는 마크다운 문법에서 사용할 수 없습니다.  
+
+`GFM` 이란 Github Flavored Markdown의약자로 현재 Github.com과 Github Enterprise의 사용자 컨텐츠를 지원하는 Markdown의 한 종류 입니다. GFM을 사용하면 코드의 가독성을 높여줄 수 있기 때문에 각 프로그래밍 언어의 구문에 맞게 Syntax Highlight 가 가능합니다. 하지만 제가 이 블로그 에서는 강제로 코드 색상을 정해 놓았기 때문에 추후 변경하도록 하겠습니다.  
+
+저는 [Github gist](https://gist.github.com/) 를 사용하여 코드를 작성할 예정입니다. 아무튼 다시 돌아가서 GFM을 더 이야기 해 봅시다.
+
+
   * \<title>
   * \<textarea>
   * \<style>
@@ -757,7 +764,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
   * \<script>
   * \<plaintext> [사용불가]
 
-여기서 사용불가 처리한 태그들은 다음과 같이 <>가 \&lt;> 처리되어 표현됨
+여기서 사용불가 처리한 태그들은 다음과 같이 <>가 \&lt;> 처리하여 표시해 볼 수 있습니다.
 
 ```
 <strong> <title> <style> <em>
@@ -773,7 +780,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
   &lt;xmp> is disallowed.  &lt;XMP> is also disallowed.
 </blockquote>
 ```
--> 그렇기 때문에 이탤릭체로 표시되는 현상 발생
+-> 그렇기 때문에 이탤릭체로 표시되는 현상이 발생합니다.
 
 ---
 
@@ -784,7 +791,7 @@ www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww
 
 
 ### - SHA 참조
-* Refs가 있으면 커밋을 찾기 쉬워지는데 [SHA-1 hash](https://en.wikipedia.org/wiki/SHA-1) 는 자동으로 GitHub에 커밋에 대한 링크로 변환해 줌
+* Refs가 있으면 커밋을 찾기 쉬워지는데 [SHA-1 hash](https://en.wikipedia.org/wiki/SHA-1) 는 자동으로 GitHub에 커밋에 대한 링크로 변환해 주기도 합니다.
 
 ```
 16c999e8c71134401a78d4d46435517b2271d6ac
@@ -796,37 +803,8 @@ mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 ---
 
 
-<br>
-
-
-### - 저장소 내에서의 이슈 참조
-이슈 또는 Pull Request 요청의 모든 번호가 자동 링크로 변환
-
-```
-#1
-mojombo#1
-mojombo/github-flavored-markdown#1
-```
-
-<br>
-
----
-
-<br>
-
-
-### - 사용자 이름 태그 @mentions
-* @ 기호 다음에 사용자 이름을 입력하면 그 사람에게 깃허브 상에서 알림 메시지 호출
-* 조직 내에서 팀을 @mention 할 수 있음
-
-<br>
-
----
-
-<br>
-
 ### - Emoji(이모지)
-* GitHub에서도 마크다운을 통해 이모티콘 사용이 가능
+* GitHub에서도 마크다운을 통해 이모티콘 사용이 가능합니다. 저는 [Microsoft 이모지](https://emojigraph.org/ko/fire/)를 사용합니다. 옛날과 달리 업데이트가 되어 매우 귀엽습니다.
   ```
   "상상이 현실이 된다!"
   👐➡🦋✨
