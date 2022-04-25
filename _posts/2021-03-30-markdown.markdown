@@ -5,7 +5,7 @@ title: "[Github] Markdown Syntax 기초"
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
-# author: Mr. Green's Workshop
+# author:
 # multiple category is not supported
 category: Github
 # multiple tag entries are possible
@@ -422,7 +422,7 @@ Markdown에서는 아래와 같이 중첩리스트도 가능합니다.
 
 * Markdown에서 코드 작성은 Syntax highlighting 이라고도 하며 IDE와 동일하게 구문 강조 라이브러리 사용이 가능합니다.
 
-type `nano` 즉, ``` 기호를 쓰고자 하는 언어 앞에 붙이고 다음과 같이 작성합니다. 
+type `nano` 즉, ` ``` ` 기호를 쓰고자 하는 언어 앞에 붙이고 다음과 같이 작성합니다. 
 
 * C 언어
 
@@ -468,6 +468,10 @@ int main(){
   }
 }
 ```
+
+* 하지만 한글 폰트가 예쁘지 않고 줄표시가 안 되기 때문에 `D2 Coding` 폰트를 삽입하기 전 까지 [Github gist](https://gist.github.com) 를 사용할 것 같습니다. 제가 열심히 css 를 수정해서 코드블록을 꾸며 봤는데 [Color Scripter](https://extends.colorscripter.com/#/) 의 확장스토어에서 어느 부분에 색상을 넣을지 미리 구성한 뒤 진행하였습니다. 신규 스타일패키지의 `Mint` 가 제가 만든 패키지입니다 !
+
+<script src="https://gist.github.com/jeongmint/e754c73dffc4862e88212ade08797c46.js"></script>
 
 ---
 
@@ -725,9 +729,7 @@ _________________
 
 * 하지만 마크다운 문법에서는 허용되지 않는 RAW HTML 태그가 존재합니다. 그렇기에 이를 해결하기 위해 `GFM`는 태그 필터를 사용하고 HTML 출력을 렌더링할 때 다음 HTML 태그가 필터링되는데 여기서 [사용불가] 처리한 태그는 마크다운 문법에서 사용할 수 없습니다.  
 
-`GFM` 이란 Github Flavored Markdown의약자로 현재 Github.com과 Github Enterprise의 사용자 컨텐츠를 지원하는 Markdown의 한 종류 입니다. GFM을 사용하면 코드의 가독성을 높여줄 수 있기 때문에 각 프로그래밍 언어의 구문에 맞게 Syntax Highlight 가 가능합니다. 하지만 제가 이 블로그 에서는 강제로 코드 색상을 정해 놓았기 때문에 추후 변경하도록 하겠습니다.  
-
-저는 [Github gist](https://gist.github.com/) 를 사용하여 코드를 작성할 예정입니다. 아무튼 다시 돌아가서 GFM을 더 이야기 해 봅시다.
+`GFM` 이란 Github Flavored Markdown의약자로 현재 Github.com과 Github Enterprise의 사용자 컨텐츠를 지원하는 Markdown의 한 종류 입니다. GFM을 사용하면 코드의 가독성을 높여줄 수 있기 때문에 각 프로그래밍 언어의 구문에 맞게 Syntax Highlight 가 가능합니다. 하지만 앞서 말한 바와 같이 이 블로그에서는 [Github gist](https://gist.github.com/) 를 사용하여 코드블럭을 처리할 예정입니다. 아무튼 다시 돌아가서 GFM을 더 이야기 해 봅시다.
 
 
   * \<title>

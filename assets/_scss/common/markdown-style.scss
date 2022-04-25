@@ -3,6 +3,9 @@
  * Licensed under MIT
 */
 
+/* Import gist dark mode color */
+@import "/assets/css/dark-mode-gist.css";
+
 /* common for projects, post */
 .markdown-style {
   @include get_scheme(markdown-style-colors-);
@@ -172,3 +175,12 @@
   color: var(--markdown-styles-quote-text-color);
   overflow-wrap: break-word;
 }
+
+/* Decorate gist to dark mode */
+.gist-meta{display: none;}
+.gist .markdown-body .csv-data th,
+.gist .markdown-body .csv-data td,
+.gist .markdown-body .csv-data .blob-num {background: #373737; background-color: #373737;}
+.gist .blob-interaction-bar .octicon-search > path {fill: #fff}
+.gist .blob-interaction-bar > input {background: #373737}
+.gist .blob-interaction-bar {background: #373737}
