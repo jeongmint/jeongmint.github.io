@@ -7,21 +7,21 @@
 // otherwise it will be added to all output css files
 
 // dark color scheme definitions
-$brand-color-dark: #71b2ff;
+$brand-color-dark: #63F2BE;
 $main-background-dark: #191919;
 $button-color-dark: #666;
 $menu-background-dark: #252525;
-$header-color-dark: #c0c0c0;
+$header-color-dark: #fcfcfc;
 $container-background-dark: #2a2a2a;
 $hr-color-dark: #333;
-$anchor-text-color-dark: #3389de;
+$anchor-text-color-dark: #63F2BE;
 
 // layout: default
 // default/body-main-styles
 %body-main-styles-colors-dark {
   --body-anchor-text-color: #{$anchor-text-color-dark};
-  --body-anchor-hover-text-color: #2f6597;
-  --body-text-color: #b0b0b0;
+  --body-anchor-hover-text-color: #5D776E;
+  --body-text-color: #fcfcfc;
   --body-header-text-color: #{$header-color-dark};
   --body-background-color: #{$main-background-dark};
   --body-hr-color: #{$hr-color-dark};
@@ -153,12 +153,12 @@ $anchor-text-color-dark: #3389de;
   --markdown-styles-table-border-color: #444;
   --markdown-styles-blockquote-background-color: #333;
   --markdown-styles-blockquote-side-color: #{$brand-color-dark};
-  --markdown-styles-kbd-background-color: #111;
-  --markdown-styles-kbd-text-color: #fff;
+  --markdown-styles-kbd-background-color: #735B4D;
+  --markdown-styles-kbd-text-color: #D9A577;
   --markdown-styles-code-background-color: #333;
   --markdown-styles-code-text-color: #abacaa;
-  --markdown-styles-quote-background-color: #111;
-  --markdown-styles-quote-text-color: #96bad7;
+  --markdown-styles-quote-background-color: #3E5950;
+  --markdown-styles-quote-text-color: #AEF4DA;
 }
 // layout: post, post-list
 // common/post-info

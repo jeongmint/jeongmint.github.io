@@ -7,20 +7,20 @@
 // otherwise it will be added to all output css files
 
 // light color scheme definitions
-$brand-color-light: #416289;
+$brand-color-light: #4EBF96;
 $main-background-light: #efefef;
 $button-color-light: #a19e9e;
 $menu-background-light: #f9f9f9;
 $header-color-light: #5f5e5e;
 $container-background-light: #fff;
 $hr-color-light: #eee;
-$anchor-text-color-light: #3389de;
+$anchor-text-color-light: #4EBF96;
 
 // layout: default
 // default/body-main-styles
 %body-main-styles-colors-light {
   --body-anchor-text-color: #{$anchor-text-color-light};
-  --body-anchor-hover-text-color: #2f6597;
+  --body-anchor-hover-text-color: #D9A577;
   --body-text-color: #6a6a6a;
   --body-header-text-color: #{$header-color-light};
   --body-background-color: #{$main-background-light};

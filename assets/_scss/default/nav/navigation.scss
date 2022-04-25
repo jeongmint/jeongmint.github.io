@@ -86,14 +86,14 @@ select { font-family: 'Noto Sans KR', sans-serif; }
 
 .top-nav .top-nav-brand,
 .side-nav-brand > .brand-holder > a {
-  color: #63F2BE;
+  color: var(--body-anchor-text-color);
   font-weight: 700;
 }
 
 .top-nav .top-nav-brand:hover,
 .side-nav-brand > .brand-holder > a:hover {
   transition: all 0.5s ease-in-out;
-  color: #5D776E;
+  color: var(--body-anchor-hover-text-color);
 }
 
 .top-nav .top-nav-brand:hover,
