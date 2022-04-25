@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_markdown
-title: "[Github] Markdown Syntax"
+title: "[Github] Markdown Syntax 기초"
 
 # post specific
 # if not specified, .name will be used from _data/owner.yml
@@ -40,6 +40,8 @@ date: 2021-03-30 23:59:06 +0900
 <!-- outline-start -->
 
 # 마크다운 문법을 정리합니다 !
+
+---
 
 깃허브 블로그에서는 마크다운 문법이 활성화되어 있습니다. 마크다운에서 사용하는 문법은 코드 블록으로 적었으며, 결과값은 그 아래 나타납니다.
 
@@ -227,7 +229,7 @@ __*Italic & Bold*__ 사용해야 합니다
 
 ## Escaping Characters (추후에 서술되는 11. Escaping Characters 참고)
 
-### ' \* '와 ' \_ '를 문자로 사용하고 싶을 때
+### `*` 와 `\_` 를 문자로 사용하고 싶을 때
 
 해당 문자를 이탤릭체가 아닌 텍스트 문자로 사용하고자 할 때는<br/>
 이스케이프 문자 `\`를 이용합니다.
@@ -474,7 +476,7 @@ int main(){
 <br>
 
 ## 8. Horizontal Rules(줄표 넣기)
-* 줄표를 넣으려면 한 줄에 세 개 이상의 별표`***`, 대시`---` 또는 밑줄`__`을 사용해야 합니다. 저는 보통 `---`를 사용합니다.
+* 줄표를 넣으려면 한 줄에 세 개 이상의 별표 `***` , 대시 `---` 또는 밑줄 `__` 을 사용해야 합니다. 저는 보통 `---` 를 사용합니다.
 
 
 ```
@@ -496,7 +498,7 @@ _________________
 
 ## 9.  Links(링크 걸기)
 
-* 링크 텍스트를 대괄호(예: [Twitch])로 묶은 다음 즉시 URL을 괄호 안에 삽입하는 것이 가능합니다. <br>(예: (https://www.twitch.tv/sal_gu)
+* 링크 텍스트를 대괄호(예: [Twitch])로 묶은 다음 즉시 URL을 괄호 안에 삽입하는 것이 가능합니다. <br/> 예시로 제가 좋아하는 데드 바이 데이라이트 트위치 스트리머를 링크로 걸어보겠습니다.
 
 ```
 [살인마협회장 - Twitch](https://www.twitch.tv/sal_gu)
@@ -518,30 +520,6 @@ _________________
 <https://www.ssunivs.com> <br/>
 <tangerine_t@naver.com>
 
----
-<br>
-
-* 링크 뒤에 괄호`()` 나 큰따옴표 `""`로 문자를 삽입하면 설명(title)을 다는 것이 가능합니다. 모든 링크 형식을 정리해 본다면 다음과 같습니다.
-  
-```
-[1]: https://madeedam.com/
-[1]: https://madeedam.com/ "New IU Fan Products"
-[1]: https://madeedam.com/ 'New IU Fan Products'
-[1]: https://madeedam.com/ (New IU Fan Products)
-[1]: <https://madeedam.com/> "New IU Fan Products"
-[1]: <https://madeedam.com/> 'New IU Fan Products'
-[1]: <https://madeedam.com/> (New IU Fan Products)
-(https://madeedam.com/)
-
-```
-[1]: https://madeedam.com/ 
-[1]: https://madeedam.com/ "New IU Fan Products"
-[1]: https://madeedam.com/ 'New IU Fan Products'
-[1]: https://madeedam.com/ (New IU Fan Products)
-[1]: <https://madeedam.com/> "New IU Fan Products"
-[1]: <https://madeedam.com/> 'New IU Fan Products'
-[1]: <https://madeedam.com/> (New IU Fan Products)
-(https://madeedam.com/)
 
 ---
 <br>
@@ -552,7 +530,7 @@ _________________
 형식 : ![Image id](url)
 ```
 
-* 이미지 추가는 느낌표`!`를 대체 텍스트의 대괄호 앞에 붙인 후, 경로 또는 URL을 괄호 안에 삽입하여 나타냅니다. (위에서 설명한 URL 링크와 마찬가지로 괄호`()` 나 큰따옴표`""`를 통해 설명(title)을 달 수 있습니다.)
+* 이미지 추가는 느낌표`!`를 대체 텍스트의 대괄호 앞에 붙인 후, 경로 또는 URL을 괄호 안에 삽입하여 나타냅니다. 제가 가장 좋아하는 여자 솔로 가수이면서 배우이자 국힙 원탑 아이유의 정규 5집 앨범을 예시 이미지로 넣어보겠습니다.
 
 ```
 ![LILAC](https://user-images.githubusercontent.com/39428260/112938741-2695ad80-9165-11eb-850a-dfbe7c20fee0.jpg)
@@ -560,7 +538,7 @@ _________________
 
 ![LILAC](https://user-images.githubusercontent.com/39428260/112938741-2695ad80-9165-11eb-850a-dfbe7c20fee0.jpg)
 
-* 이미지 링크를 만들기 위해서는 전체 대괄호를 만들어 뒤에 링크를 삽입합니다.
+* 이미지 링크를 만들기 위해서는 전체 대괄호를 만들어 뒤에 링크를 삽입합니다. 원래 깃허브에서는 되는데 제 블로그에서는 css 가 다른 형태로 걸려있어 링크 이동이 어려운 점 미리 알려드립니다.
 
 ```
 [![buying-albums](https://user-images.githubusercontent.com/39428260/112939323-3792ee80-9166-11eb-9df3-0e1e1a2725f7.jpg)"앨범 구매하러 가기"](http://www.hottracks.co.kr/ht/record/detail/2300186089126)
@@ -631,7 +609,7 @@ _________________
 
 <br>
 
-* 정렬 기능 또한 구현이 가능한데 정렬은 칼럼을 두고 싶은 방향으로 콜론 ' : ' 기호를 추가하면 됩니다.
+* 정렬 기능 또한 구현이 가능한데 정렬은 칼럼을 두고 싶은 방향으로 콜론 ` : ` 기호를 추가하면 됩니다.
 
 ```
 [왼쪽 정렬]
@@ -830,3 +808,26 @@ mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 <https://guides.github.com/features/mastering-markdown/>
 
 [마크다운 위키백과 사이트](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4 "마크다운 위키백과 사이트")
+
+
+---
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jeongmint.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

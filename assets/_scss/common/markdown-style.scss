@@ -82,8 +82,8 @@
 .markdown-style blockquote {
   text-align: justify;
   font-style: italic;
-  border-left: 2px solid;
-  border-right: 2px solid;
+  border-left: 4px solid;
+  border-right: 4px solid;
   margin-left: calc(-1 * var(--text-spacing));
   margin-right: calc(-1 * var(--text-spacing));
 }
@@ -115,7 +115,7 @@
 }
 
 .markdown-style blockquote > p {
-  font-size: 1.65rem;
+  font-size: 1.48rem;
   font-weight: 300;
 }
 

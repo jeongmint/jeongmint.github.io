@@ -27,6 +27,6 @@ facebook:
 # your_new_contact:
 #   icon: "fa fa-font"
 #   url: "https://www.example.com"
-naver_blog:
-  icon: "fa fa-bookmark"
-  url: "https://blog.naver.com"
+behance:
+  icon: "fa fa-behance-square"
+  url: "https://www.behance.net/"

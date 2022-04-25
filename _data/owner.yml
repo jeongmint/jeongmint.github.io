@@ -37,10 +37,10 @@ contacts:
   #- youtube: ""
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
-  - naver_blog: "tangerine_t"
+  - behance: "jeongminchoi3"
 
 # Disqus Short name, make sure comments and disqus are enabled in _data/conf/posts.yml file
-disqus_shortname: "jeong_min_choi"
+disqus_shortname: "jeongmint"
 
 # if no id is provided, this feature will be disabled.
 # make sure your environment does not match with google.analytics.ignore in _data/conf/main.yml
