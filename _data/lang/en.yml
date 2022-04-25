@@ -126,7 +126,7 @@ post-list:
 home:
   title: UE5 수련장
   button_name: Home
-  new_posts_title: 새로운 게시글 🐱
+  new_posts_title: ▾ 새로운 게시글 🌵
   new_posts_show_more_button: 더 보기 ...
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
   # top_header_line1: "$site_brand"
