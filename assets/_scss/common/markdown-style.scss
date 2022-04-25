@@ -49,7 +49,7 @@
 .markdown-style li p {
   font-weight: 400;
   font-size: 1.58rem;
-  word-spacing: 0.24rem;
+  word-spacing: 0.22rem;
 }
 
 .markdown-style p {
@@ -86,6 +86,32 @@
   border-right: 2px solid;
   margin-left: calc(-1 * var(--text-spacing));
   margin-right: calc(-1 * var(--text-spacing));
+}
+
+/* Edit Post title size */
+
+.markdown-style h1 {
+  font-size: 2.8rem;
+}
+
+.markdown-style h2 {
+  font-size: 2.58rem;
+}
+
+.markdown-style h3 {
+  font-size: 2.36rem;
+}
+
+.markdown-style h4 {
+  font-size: 2.2rem;
+}
+
+.markdown-style h5 {
+  font-size: 2.0rem;
+}
+
+.markdown-style h6 {
+  font-size: 1.86rem;
 }
 
 .markdown-style blockquote > p {
