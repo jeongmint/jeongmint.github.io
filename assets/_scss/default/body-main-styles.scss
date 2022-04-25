@@ -30,6 +30,15 @@ p {
   @include get_scheme(body-main-styles-colors-);
 }
 
+::-moz-selection {
+  background: #5D776E;
+  color: #fff;
+}
+::selection {
+  background: #5D776E;
+  color: #fff;
+}
+
 html {
   /* for comment page_bottom_Check */
   height: 100%;

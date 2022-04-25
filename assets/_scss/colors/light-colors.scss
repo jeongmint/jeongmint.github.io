@@ -93,8 +93,8 @@ $anchor-text-color-light: #4EBF96;
   --searchbox-background-color: #e6e6e6;
   --searchbox-focus-background-color: #fff;
   --searchbox-focus-text-color: #000;
-  --searchbox-focus-border-color: #0e82b0;
-  --searchbox-focus-shadow-color: #175871a0;
+  --searchbox-focus-border-color: #63F2BE;
+  --searchbox-focus-shadow-color: #517367;
 }
 // default/searchresult
 %searchresult-colors-light {
@@ -144,12 +144,12 @@ $anchor-text-color-light: #4EBF96;
   --markdown-styles-table-border-color: #ddd;
   --markdown-styles-blockquote-background-color: #eee;
   --markdown-styles-blockquote-side-color: #{$brand-color-light};
-  --markdown-styles-kbd-background-color: #888;
-  --markdown-styles-kbd-text-color: #eee;
+  --markdown-styles-kbd-background-color: #f8e3d2;
+  --markdown-styles-kbd-text-color: #735B4D;
   --markdown-styles-code-background-color: #eee;
   --markdown-styles-code-text-color: #333;
-  --markdown-styles-quote-background-color: #eee;
-  --markdown-styles-quote-text-color: #{$header-color-light};
+  --markdown-styles-quote-background-color: #cceee2;
+  --markdown-styles-quote-text-color: #00794c;
 }
 // layout: post, post-list
 // common/post-info
