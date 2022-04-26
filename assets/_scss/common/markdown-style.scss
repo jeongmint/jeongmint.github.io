@@ -3,15 +3,15 @@
  * Licensed under MIT
 */
 
-/* Import gist dark mode color */
-@import "/assets/css/dark-mode-gist.css";
-
 /* common for projects, post */
 .markdown-style {
   @include get_scheme(markdown-style-colors-);
   @include get_scheme(bootstrap-dark-table-striped-colors-);
   @include get_scheme(bootstrap-dark-table-colors-);
 }
+
+/* Import gist dark mode color */
+@import "/assets/css/dark-mode-gist.css";
 
 /* tables */
 /* add scroll for mobile screens */
@@ -177,7 +177,7 @@
 }
 
 /* Decorate gist to dark mode */
-.gist-meta{display: none;}
+.gist-meta{display: none;} /* Remove meta text zone "hosted by Github" */
 .gist .markdown-body .csv-data th,
 .gist .markdown-body .csv-data td,
 .gist .markdown-body .csv-data .blob-num {background: #373737; background-color: #373737;}

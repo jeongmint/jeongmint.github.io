@@ -1,0 +1,115 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_page_002
+title: "[Github] gist 다크모드 설정"
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+# author: ""
+# multiple category is not supported
+category: Github
+# multiple tag entries are possible
+tags: [Github, Dark theme, Gist]
+# thumbnail image for post
+img: ":gist00.png"
+# disable comments on this page
+comments_disable: false
+
+# publish date
+date: 2022-04-26 14:05:04 +0900
+
+# seo
+# if not specified, date will be used.
+meta_modify_date: 2022-04-26 15:00:04 +0900
+# check the meta_common_description in _data/lang/[language].yml
+# meta_description: ""
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+# published: false
+---
+<!-- outline-start -->
+
+# Git gist로 코드 예쁘게 작성하기
+
+---
+
+### gist 적용 방법
+
+먼저 gist 사이트에 들어갑니다. [▶ Git gist](https://gist.github.com/)
+<br/>
+로그인 한 상태에서 해당 화면으로 진입합니다.
+
+![hello.cpp](:gist01.png){:data-align="center"}  
+
+다음과 같이 사용할 언어 파일을 가볍게 작성합니다. 저는 hello.cpp 를 이름으로 설정하였고, 하단의 Create secret gist 를 눌러 다음 단계로 진입합니다.
+
+![hello.cpp](:gist02.png){:data-align="center"} 
+
+상단에 있는 copy 버튼으로 Embed 된 스크립트를 복사하여 여러분이 작성할 포스트에 붙여 넣습니다.
+
+
+### 기본 코드 블록/gist 다크모드 설정
+
+`gist`에서 뿐만 아니라 기본 github의 코드블록 까지 dark theme 을 설정하는 방법을 알아보겠습니다. 현재 제가 미리 꾸며 놓은 상태기 때문에 기존 코드 또한 알록달록 예쁩니다. 사실 의도한 바는 `gist` 만 예쁘게 꾸미는 것이었는데 제 블로그에 동작하는 모든 코드 블록이 아름답게 꾸며지는 현상이 일어나고 있습니다... 알게 된다면 추후에 방법을 더 추가하도록 하겠습니다.
+
+<br/>
+
+일단 `Markdown` 기본 코드 블록과 `gist` 의 차이를 보여드리겠습니다.
+
+**Markdown 기본 코드 블록**
+
+``` cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{   cout << "Hello World!" << endl;
+    // Hello World를 출력합니다
+    return 0;
+}
+```
+
+**gist 코드 블록**
+<script src="https://gist.github.com/jeongmint/f535fb6072274d798cd863bec3b8677e.js"></script>
+
+다크모드를 설정하지 않은 Original gist 코드 블록은 다음과 같이 하단에 `meta` 가 삽입되어 있습니다.
+![hello.cpp](:gist03.png){:data-align="center"} 
+
+<br/>
+
+> 네? gist 보다 기본 코드 블록이 더 예쁜데요?
+
+그것은 제가 의도한 바가 아니지만,, 일단 좋은 게 좋은 것으로,, 사실 `include` 쪽이 사실 주석 설명과 같은 색인 게 조금 걸리네요 😂 code line의 number가 필요할 때 혹은 코드가 너무 길어질 때는 post 작성이 어렵기 때문에 `gist`를 사용하고 그렇지 않을 때는 기본 코드 블록을 사용할 예정입니다.
+
+---
+
+
+{{ website_info_text_first }}
+
+  
+### 테마 적용 방법
+
+제가 만든 `Mint theme` 을 적용해 봅시다. 블로그와 통일감을 주는 컬러가 특징입니다🌿  
+해당 리포지토리에서 `.css` 를 다운 받습니다. [▶ Mint Theme](https://github.com/jeongmint/gist-dark-theme-mint)  
+시간이 된다면 더 다양한 theme 을 추후에 추가하여 포스팅 하겠습니다.  
+
+<br/>
+
+제가 사용하는 테마의 경우에는 마크다운의 `css` 를 관리하는 `markdown-style.scss` 파일이 따로 있어 해당 파일에 위에서 다운 받은 `.css` 경로를 추가하여 임포트를 해 줬습니다. 아래 코드는 경로 파일 추가 방법과 `gist` 를 수정하여 적용하기 위한 코드입니다.
+
+<script src="https://gist.github.com/jeongmint/e441fc4e8474a67a1f02bdfb8c5cb3df.js"></script>
+
+제가 사용하는 언어 위주로 색상을 꾸몄기 때문에 마음에 안 드는 색상이 있다면 `F12` 키로 해당 코드 태그를 기억한 뒤 `.css` 색상에서 변경하시면 됩니다.
+
+<!-- outline-end -->
+
+{{ website_info_text_second }}

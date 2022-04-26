@@ -1,6 +1,6 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_page_1
+lng_pair: id_page_001
 title: "[🦫] 블로그 개장"
 
 # post specific
@@ -22,7 +22,7 @@ date: 2022-04-23 20:00:04 +0900
 # if not specified, date will be used.
 meta_modify_date: 2022-04-25 02:00:04 +0900
 # check the meta_common_description in _data/lang/[language].yml
-#meta_description: ""
+# meta_description: ""
 
 # optional
 # if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
@@ -52,7 +52,7 @@ meta_modify_date: 2022-04-25 02:00:04 +0900
 
 > Jekyll theme 만 2년을 고른 것 같긴 하지만...  
 
-저는 원래 [네이버 블로그](https://blog.naver.com/tangerine_t) 를 사용했습니다. 네이버 블로그는 접근성이 편리하고 UI도 직관적입니다. 하지만 구글 검색 엔진에서 노출이 잘 안 되기 때문에 다들 블로그 이사 준비를 한다고 합니다... 깃허브로 옮겼을 때 얼마나 유입이 늘 것인가에 대해서 궁금해져서 블로그를 옮기게 되었습니다. 덕분에 잔디도 심어지고 자잘한 웹 지식도 배워갈듯 싶습니다. 
+저는 원래 [네이버 블로그](https://blog.naver.com/tangerine_t) 를 사용했습니다. 네이버 블로그는 접근성이 편리하고 UI도 직관적입니다. 하지만 구글 검색 엔진에서 노출이 잘 안 되기 때문에 다들 블로그 이사 준비를 합니다... 깃허브로 옮겼을 때 얼마나 유입이 늘 것인가에 대해서 궁금해져서 블로그를 옮기게 되었습니다. 덕분에 잔디도 심어지고 자잘한 웹 지식도 배워갈듯 싶습니다. 
 
 <br/>
   
@@ -99,5 +99,3 @@ meta_modify_date: 2022-04-25 02:00:04 +0900
 <!-- outline-end -->
 
 {{ website_info_text_second }}
-
----
