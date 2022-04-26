@@ -8,10 +8,10 @@ lng_pair: id_projects
 #date: 2022-03-03 12:32:00 +0000
 
 # for override items in _data/lang/[language].yml
-#title: My title
-#button_name: "My button"
+title: Porfolio
+button_name: "Porfolio"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
-#icon: "fa fa-bath"
+icon: "fa fa-file-image-o"
 
 # seo
 # if not specified, date will be used.

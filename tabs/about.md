@@ -10,10 +10,10 @@ img: ":about.jpg"
 #date: 2022-03-03 12:32:00 +0000
 
 # for override items in _data/lang/[language].yml
-#title: My title
-#button_name: "My button"
+# title: My title
+button_name: "Me"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
-#icon: "fa fa-bath"
+icon: "fa fa-user-circle"
 
 # seo
 # if not specified, date will be used.
@@ -32,6 +32,8 @@ img: ":about.jpg"
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
 #published: false
+
+
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
@@ -40,3 +42,7 @@ img: ":about.jpg"
 {{ website_info_text_first }}
 
 {{ website_info_text_second }}
+
+Test
+
+---

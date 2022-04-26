@@ -16,6 +16,18 @@ $container-background-dark: #2a2a2a;
 $hr-color-dark: #333;
 $anchor-text-color-dark: #63F2BE;
 
+// layout: projects
+// projects/project-container
+%project-container-colors-dark {
+  --project-category-text-color: #f5b781;
+  --project-date-text-color: #c0c0c0;
+  // for accessibility purpose taken from link color
+  //--project-read-more-less-text-color: white;
+  --project-button-text-color: #fff;
+  --project-button-border-color: #fff;
+  --project-button-hover-color: #fff;
+}
+
 // layout: default
 // default/body-main-styles
 %body-main-styles-colors-dark {
@@ -231,15 +243,4 @@ $anchor-text-color-dark: #63F2BE;
   --links-button-text-color: #{$container-background-dark};
   --links-button-border-color: #{$container-background-dark};
   --links-button-hover-color: #{$container-background-dark};
-}
-// layout: projects
-// projects/project-container
-%project-container-colors-dark {
-  --project-category-text-color: #c0c0c0;
-  --project-date-text-color: #c0c0c0;
-  // for accessibility purpose taken from link color
-  //--project-read-more-less-text-color: white;
-  --project-button-text-color: #fff;
-  --project-button-border-color: #fff;
-  --project-button-hover-color: #fff;
 }

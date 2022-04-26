@@ -1,8 +1,4 @@
 ---
-# Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
-# Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
-# Licensed under MIT
-
 layout: default
 # projects page
 ---
@@ -23,7 +19,7 @@ layout: default
 {%- if project_data.main.text_color -%}
   {%- capture color_style -%} style="color:{{ project_data.main.text_color }};" {%-endcapture-%}
 {%- endif %}
-  <h1 {{ color_style }}>{{ project_data.main.header | default: "Projects" }}</h1>
+  <h1 {{ color_style }}>{{ project_data.main.header | default: "Portfolio" }}</h1>
   <p {{ color_style }}>{{ project_data.main.info | default: "No data, check page_data in [language]/tabs/projects.md front matter or _data/content/projects/[language].yml" }}</p>
   <div class="multipurpose-button-wrapper">
   {% for category in project_data.category %}
@@ -59,8 +55,8 @@ layout: default
           </div>
           <hr>
           <a href="javascript:void(0);" class="read-more-less">
-            <div class="read-more"><i class="fa fa-angle-double-down fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_more_text }}</div>
-            <div class="read-less"><i class="fa fa-angle-double-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}</div>
+            <div class="read-more"><i class="fa fa-caret-down fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_more_text }}</div>
+            <div class="read-less"><i class="fa fa-caret-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}</div>
           </a>
         </div>
       </div>
@@ -68,7 +64,7 @@ layout: default
         <div class="markdown-style">
           {{ list.post | markdownify }}
           <a href="javascript:void(0);" class="read-more-less">
-            <i class="fa fa-angle-double-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}
+            <i class="fa fa-caret-up fa-fw" aria-hidden="true"></i>{{ site.data.lang[lng].projects.read_less_text }}
           </a>
         </div>
       </div>
