@@ -1,9 +1,10 @@
-/* Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
- * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
- * Licensed under MIT
-*/
-
 .pagination a {
+  color: #5D776E;
+}
+
+/* Edit pagination Color here(light mode) */
+.pagination > li:not(.disabled, .active) > a,
+.pager > li:not(.disabled) > a {
   color: #5D776E;
 }
 
