@@ -22,7 +22,7 @@ date: 2022-04-23 20:00:04 +0900
 # if not specified, date will be used.
 meta_modify_date: 2022-04-25 02:00:04 +0900
 # check the meta_common_description in _data/lang/[language].yml
-# meta_description: ""
+meta_description: "Github Jekyll Blog 깃허브 지킬 블로그 만들기"
 
 # optional
 # if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false

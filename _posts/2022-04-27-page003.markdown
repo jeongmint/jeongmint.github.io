@@ -1,0 +1,82 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_page_003
+title: "[Github] Pagination Color 수정 방법"
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+# author: ""
+# multiple category is not supported
+category: Github
+# multiple tag entries are possible
+tags: [Github, Dark theme, Gist]
+# thumbnail image for post
+img: ":pagination01.png"
+# disable comments on this page
+comments_disable: false
+
+# publish date
+date: 2022-04-27 23:39:57 +0900
+
+# seo
+# if not specified, date will be used.
+meta_modify_date: 2022-04-27 23:56:04 +0900
+# check the meta_common_description in _data/lang/[language].yml
+meta_description: "How to Edit Github Pagination Color 색상 수정"
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+# published: false
+---
+<!-- outline-start -->
+
+# Github 블로그 pagination 색상 변경하기
+
+---
+
+### pagination 이란
+
+pagination 이란 아래와 같이 페이지를 좀 더 쉽게 볼 수 있도록 게시글 하단에 존재하는 페이지 마커(혹은 넘버링) 기능입니다. 해당 페이지로 쉽게 넘어갈 수 있게 합니다.
+
+![Before Pagination](:pagination02.png){:data-align="center"} 
+
+<br/>
+
+제 블로그 theme 에서는 다크모드에서만 Pagination 색상이 예쁘게 보이고 라이트모드에서는 default Color가 위와 같은 탁한 파란색이었습니다.
+
+`.css` 파일을 수정하였더니 아래와 같이 블로그에 어울리는 색상으로 변경할 수 있었습니다.
+
+![After Pagination](:pagination00.png){:data-align="center"}  
+
+<br/>
+
+사용한 코드는 다음과 같습니다.
+```css
+/* 활성화되지 않은 상태의 pagination a 태그 수정*/
+.pagination > li:not(.disabled, .active) > a,
+.pager > li:not(.disabled) > a {
+  color: #5D776E;
+}
+
+/* 활성화된 상태의 pagination a 태그와 hover 수정*/
+.pagination > li.active > a,
+.pagination > li.active > a:hover {
+  background-color: #5D776E;
+  border-color: #5D776E;
+}
+```
+
+원하는 색상을 `#5d776E` 컬러 코드에 대체시키면 되겠습니다.
+
+
+<!-- outline-end -->
+
+{{ website_info_text_second }}

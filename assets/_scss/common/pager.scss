@@ -12,7 +12,6 @@
 .pagination_wrapper {
   @include get_scheme(bootstrap-dark-pagination-colors-);
   text-align: center;
-  color: #5D776E;
 }
 
 .pagination_wrapper nav {

@@ -22,7 +22,7 @@ date: 2021-03-30 23:59:06 +0900
 # if not specified, date will be used.
 #meta_modify_date: 2022-02-10 08:11:06 +0900
 # check the meta_common_description in _data/lang/[language].yml
-#meta_description: ""
+meta_description: "Github Markdown Syntax Basic 깃허브 마크다운 문법 기초 정리"
 
 # optional
 # if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
@@ -229,7 +229,7 @@ __*Italic & Bold*__ 사용해야 합니다
 
 ## Escaping Characters (추후에 서술되는 11. Escaping Characters 참고)
 
-### `*` 와 `\_` 를 문자로 사용하고 싶을 때
+### `*` 와 `_` 를 문자로 사용하고 싶을 때
 
 해당 문자를 이탤릭체가 아닌 텍스트 문자로 사용하고자 할 때는<br/>
 이스케이프 문자 `\`를 이용합니다.
@@ -422,7 +422,7 @@ Markdown에서는 아래와 같이 중첩리스트도 가능합니다.
 
 * Markdown에서 코드 작성은 Syntax highlighting 이라고도 하며 IDE와 동일하게 구문 강조 라이브러리 사용이 가능합니다.
 
-type `nano` 즉, ` ``` ` 기호를 쓰고자 하는 언어 앞에 붙이고 다음과 같이 작성합니다. 
+type `nano` 즉, 백틱 기호를 쓰고자 하는 언어 앞과 뒤에 세 개를 붙이고 다음과 같이 작성합니다. 
 
 * C 언어
 
@@ -469,7 +469,11 @@ int main(){
 }
 ```
 
-* 하지만 한글 폰트가 예쁘지 않고 줄표시가 안 되기 때문에 `D2 Coding` 폰트를 삽입하기 전 까지 [Github gist](https://gist.github.com) 를 사용할 것 같습니다. 제가 열심히 css 를 수정해서 코드블록을 꾸며 봤는데 [Color Scripter](https://extends.colorscripter.com/#/) 의 확장스토어에서 어느 부분에 색상을 넣을지 미리 구성한 뒤 진행하였습니다. 신규 스타일패키지의 `Mint` 가 제가 만든 패키지입니다 !
+<br/>
+
+* 하지만 한글 폰트가 예쁘지 않고 줄표시가 안 되기 때문에 `D2 Coding` 폰트를 삽입하기 전 까지 [Github gist](https://gist.github.com) 를 사용할 것 같습니다. 제가 열심히 css 를 수정해서 코드블록을 꾸며 봤는데 [Color Scripter](https://extends.colorscripter.com/#/) 의 확장스토어에서 어느 부분에 색상을 넣을지 미리 구성한 뒤 진행하였습니다. 신규 스타일패키지의 `Mint` 가 제가 만든 패키지입니다 ! 적용 방법은 [해당 포스트](https://jeongmint.github.io/posts/2022-04-26-page002) 를 참고하세요.
+
+<br/>
 
 <script src="https://gist.github.com/jeongmint/e754c73dffc4862e88212ade08797c46.js"></script>
 
@@ -488,15 +492,7 @@ int main(){
 ---
 _________________
 ```
-
-==== **결과** ====
-***
----
-_________________
-
-============
-
-<br><br>
+<br/>
 
 ---
 
@@ -529,12 +525,14 @@ _________________
 <br>
 
 ## 10. Images(이미지)
+#### 형식
 
 ```
-형식 : ![Image id](url)
+![Image id](url)
 ```
+<br/>
 
-* 이미지 추가는 느낌표`!`를 대체 텍스트의 대괄호 앞에 붙인 후, 경로 또는 URL을 괄호 안에 삽입하여 나타냅니다. 제가 가장 좋아하는 여자 솔로 가수이면서 배우이자 국힙 원탑 아이유의 정규 5집 앨범을 예시 이미지로 넣어보겠습니다.
+* 이미지 추가는 느낌표 `!` 를 대체 텍스트의 대괄호 앞에 붙인 후, 경로 또는 URL을 괄호 안에 삽입하여 나타냅니다. 제가 가장 좋아하는 여자 솔로 가수이면서 배우이자 국힙 원탑 아이유의 정규 5집 앨범을 예시 이미지로 넣어보겠습니다.
 
 ```
 ![LILAC](https://user-images.githubusercontent.com/39428260/112938741-2695ad80-9165-11eb-850a-dfbe7c20fee0.jpg)
@@ -542,12 +540,6 @@ _________________
 
 ![LILAC](https://user-images.githubusercontent.com/39428260/112938741-2695ad80-9165-11eb-850a-dfbe7c20fee0.jpg)
 
-* 이미지 링크를 만들기 위해서는 전체 대괄호를 만들어 뒤에 링크를 삽입합니다. 원래 깃허브에서는 되는데 제 블로그에서는 css 가 다른 형태로 걸려있어 링크 이동이 어려운 점 미리 알려드립니다.
-
-```
-[![buying-albums](https://user-images.githubusercontent.com/39428260/112939323-3792ee80-9166-11eb-9df3-0e1e1a2725f7.jpg)"앨범 구매하러 가기"](http://www.hottracks.co.kr/ht/record/detail/2300186089126)
-```
-[![buying-albums](https://user-images.githubusercontent.com/39428260/112939323-3792ee80-9166-11eb-9df3-0e1e1a2725f7.jpg)"이미지 클릭 시 사이트 이동"](http://www.hottracks.co.kr/ht/record/detail/2300186089126)
 
 ---
 <br>
@@ -574,30 +566,27 @@ _________________
 
 |**Character**|**Name**|
 |------|---|
-|\\ |backslash 백슬래시|
-|`|backtick 백틱(코드를 탈출시킬 때)|
-|\*|asterisk 별표|
-|\_|underscore 언더바|
-|{} |curly braces 중괄호|
-|[]|brackets 대괄호|
-|<>|angle brackets 꺾쇠|
-|()|parentheses 소괄호|
-|#|pound sign 샵|
-|+|plus sign 덧셈 기호|
-|-|minus sign/hyphen 뺄셈 기호/하이픈|
-|.|dot 온점|
-|!|exclamation mark 느낌표|
-|||파이프(표를 탈출시킬 때)|
+| \\ |backslash 백슬래시|
+| ` |backtick 백틱(코드를 탈출시킬 때)|
+| \* |asterisk 별표|
+| \_ |underscore 언더바|
+| {} |curly braces 중괄호|
+| [] |brackets 대괄호|
+| <> |angle brackets 꺾쇠|
+| ()|parentheses 소괄호|
+| # |pound sign 샵|
+| + |plus sign 덧셈 기호|
+| - |minus sign/hyphen 뺄셈 기호/하이픈|
+| . |dot 온점|
+| ! |exclamation mark 느낌표|
 
 <br>
 
 ---
-
-<br>
 
 ## 12. Tables(표)
  
-* Markdown에서는 앞서 정리한 탈출문자의 표에서 보았듯이 파이프 기호 ` | ` 와 하이픈 ` - `을 사용하여 표를 나타냅니다.
+* Markdown에서는 앞서 정리한 탈출문자의 표에서 보았듯이 파이프 기호 `|` 와 하이픈 `_` 을 사용하여 표를 나타냅니다.
 
 ```
 | 동물 | 울음소리 |
@@ -613,7 +602,7 @@ _________________
 
 <br>
 
-* 정렬 기능 또한 구현이 가능한데 정렬은 칼럼을 두고 싶은 방향으로 콜론 ` : ` 기호를 추가하면 됩니다.
+* 정렬 기능 또한 구현이 가능한데 정렬은 칼럼을 두고 싶은 방향으로 콜론 `:` 기호를 추가하면 됩니다.
 
 ```
 [왼쪽 정렬]
@@ -639,16 +628,20 @@ _________________
 | 하마  |      |
 |       | 멍멍 |
 ```
+
 [왼쪽 정렬]
+
 | 동물 | 울음소리 |
 | :--- | :--- |
 | 고양이 | 야옹 |
 | 닭 | 꼬꼬댁 |
 | 하마 |  |
 | | 멍멍 |
+
 <br>
 
 [오른쪽 정렬]
+
 | 동물 | 울음소리 |
 | ---: | ---: |
 | 고양이 | 야옹 |
@@ -658,6 +651,7 @@ _________________
 <br>
 
 [가운데 정렬]
+
 | 동물 | 울음소리 |
 | :---: | :---: |
 | 고양이 | 야옹 |
@@ -665,48 +659,12 @@ _________________
 | 하마 |  |
 | | 멍멍 |
 <br>
-
-        ### Tables
-
-        #### Small Table (centered)
-
-        | Fruits(not aligned) | Alignment (centered) | num (right align) |
-        | ------------------- | :------------------: | ----------------: |
-        | Apple               |       centered       |              9999 |
-        | Banana              |  centered long text  |               999 |
-        | Orange              |       centered       |                99 |
-        | Lemon               |       centered       |                 9 |
-        {:data-align="center"}
-
-        #### Wide Table (centered)
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-        | Banana | 111              |               111 | 222  | 333  | 444  |
-        | Orange | 11               |                11 | 22   | 33   | 44   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
-        {:data-align="center"}
-
-        #### Wider Table
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
 
 ---
-<br><br>
+<br>
 
 ## 13. HTML
-* HTML은 Markdown에서 자주 사용되는 언어기 때문에 HTML 태그 사용이 빈번합니다.
+* HTML은 Markdown에서 자주 사용되는 언어이며 스크립트를 통해 가독성을 높일 수 있습니다.
 
 * Markdown에서 사용하는 방법은 새로운 줄에세 HTML 태그(예: `\<div>`, `\<table>`, `\<pre>`, `\<p>`)를 삽입해야 합니다.
 
@@ -747,8 +705,7 @@ _________________
 
 [이미지 수정 : HTML]
 
-<img src="https://user-images.githubusercontent.com/39428260/112941600-d4a35680-9169-11eb-8cfc-dbbe6b4bdf81.jpg" width="20%" height="20%" alt="Markdown Logo">
-</img>
+<img src="https://user-images.githubusercontent.com/39428260/112941600-d4a35680-9169-11eb-8cfc-dbbe6b4bdf81.jpg" width="20%" height="20%" alt="Coin of IU">
 ```
 
 [이미지 원본 : 마크다운]
@@ -757,14 +714,17 @@ _________________
 
 [이미지 수정 : HTML]
 
-<img src="https://user-images.githubusercontent.com/39428260/112941600-d4a35680-9169-11eb-8cfc-dbbe6b4bdf81.jpg" width="20%" height="20%" alt="Markdown Logo">
-</img>
+<img src="https://user-images.githubusercontent.com/39428260/112941600-d4a35680-9169-11eb-8cfc-dbbe6b4bdf81.jpg" width="20%" height="20%" alt="Coin of IU">
 
-</br></br>
+<br/>
+
+---
+
+<br/>
 
 * 하지만 마크다운 문법에서는 허용되지 않는 RAW HTML 태그가 존재합니다. 그렇기에 이를 해결하기 위해 `GFM`는 태그 필터를 사용하고 HTML 출력을 렌더링할 때 다음 HTML 태그가 필터링되는데 여기서 [사용불가] 처리한 태그는 마크다운 문법에서 사용할 수 없습니다.  
 
-`GFM` 이란 Github Flavored Markdown의약자로 현재 Github.com과 Github Enterprise의 사용자 컨텐츠를 지원하는 Markdown의 한 종류 입니다. GFM을 사용하면 코드의 가독성을 높여줄 수 있기 때문에 각 프로그래밍 언어의 구문에 맞게 Syntax Highlight 가 가능합니다. 하지만 앞서 말한 바와 같이 이 블로그에서는 [Github gist](https://gist.github.com/) 를 사용하여 코드블럭을 처리할 예정입니다. 아무튼 다시 돌아가서 GFM을 더 이야기 해 봅시다.
+`GFM` 이란 Github Flavored Markdown의 약자로 현재 Github.com과 Github Enterprise의 사용자 컨텐츠를 지원하는 Markdown의 한 종류 입니다.
 
 
   * \<title>
@@ -776,24 +736,6 @@ _________________
   * \<noframes> [사용불가]
   * \<script>
   * \<plaintext> [사용불가]
-
-여기서 사용불가 처리한 태그들은 다음과 같이 <>가 \&lt;> 처리하여 표시해 볼 수 있습니다.
-
-```
-<strong> <title> <style> <em>
-
-<blockquote>
-  <xmp> is disallowed.  <XMP> is also disallowed.
-</blockquote>
-```
-
-```
-<p><strong> &lt;title> &lt;style> <em></p>
-<blockquote>
-  &lt;xmp> is disallowed.  &lt;XMP> is also disallowed.
-</blockquote>
-```
--> 그렇기 때문에 이탤릭체로 표시되는 현상이 발생합니다.
 
 ---
 
@@ -818,6 +760,7 @@ mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
 ### - Emoji(이모지)
 * GitHub에서도 마크다운을 통해 이모티콘 사용이 가능합니다. 저는 [Microsoft 이모지](https://emojigraph.org/ko/fire/)를 사용합니다. 옛날과 달리 업데이트가 되어 매우 귀엽습니다.
+  
   ```
   "상상이 현실이 된다!"
   👐➡🦋✨

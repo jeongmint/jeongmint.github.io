@@ -22,7 +22,7 @@ date: 2022-04-26 14:05:04 +0900
 # if not specified, date will be used.
 meta_modify_date: 2022-04-26 16:30:04 +0900
 # check the meta_common_description in _data/lang/[language].yml
-# meta_description: ""
+meta_description: "Github gist dark theme Github 코드 블록 다크모드 gist meta 수정하기"
 
 # optional
 # if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
