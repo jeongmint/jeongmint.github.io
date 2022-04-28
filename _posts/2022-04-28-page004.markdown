@@ -1,0 +1,100 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_page_004
+title: "[Houdini] 후디니 특징과 Context"
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+# author: ""
+# multiple category is not supported
+category: Houdini
+# multiple tag entries are possible
+tags: [VFX, Houdini]
+# thumbnail image for post
+img: ":houdini00.png"
+# disable comments on this page
+comments_disable: false
+
+# publish date
+date: 2022-04-28 23:50:50 +0900
+
+# seo
+# if not specified, date will be used.
+meta_modify_date: 2022-04-28 23:56:04 +0900
+# check the meta_common_description in _data/lang/[language].yml
+meta_description: "How to Start Houdini and basic context"
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+# published: false
+---
+<!-- outline-start -->
+
+# 후디니 시작하기
+
+**참고서적 : 후디니 스타트업**
+
+---
+
+### 후디니의 Node
+
+후디니는 노드 기반의 소프트웨어 프로그램입니다. 이렇게 노드를 이용하여 기능을 실행하는 유닛을 `Operator` 라고 합니다. 노드가 각각의 기능을 실행하는 것은 `Cooking` 이라고 합니다.
+
+### Node Based Workflow
+
+* 비파괴적(Non-destructive)
+
+후디니는 비파괴적이기 때문에 제작 도중에 편집이 가능하며 쉽게 Copy 할 수 있습니다.
+
+* 프로시주얼(Procedural)
+
+후디니는 절차지향적 방식을 따름니다. 이는 객체지향(Object oriented)과 반대되는 개념으로 노드가 유기적으로 연결된 구조의 순서에 집중해야 한다는 말입니다. 흐름을 따라 프로세스가 진행되기에 상위 계층(Parent)이 변했을 때 하위 계층(Child)이 모두 변할 수 있습니다. 오류가 발생했을 시 노드의 시작점부터 차근차근 디버깅을 해보는 것이 중요합니다.
+
+* 자유도
+
+후디니는 노드를 어떻게 구성할 것인지에 대해서 사용자의 자유도가 높습니다. 적절한 노드 조합을 통해서 아름답고 복잡한 장면을 구현할 수 있습니다.
+
+<br/>
+
+### 후디니의 Variable
+
+후디니에서는 `VEX` 언어를 사용하며, 여느 프로그래밍 언어와 마찬가지로 변수를 사용합니다. 변수를 사용하게 되면 긴 수치를 입력할 필요가 없으며 가독성을 높일 수 있습니다. 현재 프레임 값을 나타내는 `F` 변수나 자기 자신을 가리키는 `Self` 이름을 가진 `OS` 변수를 사용하면 작업을 자동화할 수 있습니다.  
+
+새로운 변수를 정의할 수도 있습니다. VEX 에서는 `float`, `int`, `string`, `vector`, `vector4`, `matrix` 자료형을 기본적으로 사용합니다. 변수를 참조하는 경우에는 변수 이름의 맨 앞에 `$` 기호를 붙여 `$F` 와 같이 사용합니다. 참고로 후디니는 연산을 수행할 때 C++처럼 자동으로 Casting이 되니 자료형 사용에 유의해야 합니다.
+
+자주 사용하는 변수는 다음과 같습니다.
+
+
+### 후디니의 Context(Network)
+
+후디니에서는 모델링, 다이내믹, 렌더링, 컴포지트 등 분야별로 명확하게 구분합니다. 모델링이 가능한 `SOP 네트워크` 안에서는 `SOP` 노드만 만들 수 있습니다. 이와 마찬가지로 `POP`, `NOP` 노드들은 각각의 네트워크 안에서만 만들 수 있습니다. 
+
+이러한 구분을 `Context` 라고 합니다. 일반적으로는 여러 종류의 네트워크를 오가며 작업합니다. 후디니는 `SOP 네크워크` 안에 `DOP 네크워크` 를 구성하는 것처럼 서로 다른 종류의 네트워크를 중첩시키면서 사용할 수 있습니다.
+
+
+### Context 종류
+
+* OBJ(Object, Scene)
+
+주로 Geometry, Camera, Light 의 변형(이동, 회전, 스케일)을 제어합니다.
+
+* SOP(Surface Operator, Geometry)
+
+Geometry를 편집합니다. Polygon, Parametric Curve 나 Volume 또한 편집합니다.
+
+
+
+
+
+
+<!-- outline-end -->
+
+{{ website_info_text_second }}

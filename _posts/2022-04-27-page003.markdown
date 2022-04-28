@@ -9,7 +9,7 @@ title: "[Github] Pagination Color 수정 방법"
 # multiple category is not supported
 category: Github
 # multiple tag entries are possible
-tags: [Github, Dark theme, Gist]
+tags: [Github, Jekyll, css]
 # thumbnail image for post
 img: ":pagination01.png"
 # disable comments on this page

@@ -1,7 +1,16 @@
-/* Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
- * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
- * Licensed under MIT
-*/
+/* Import 옥비체 Web Fonts */
+@font-face {
+  font-family: 'Okbi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Okbi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.nanumgothiccoding * {
+ font-family: 'Nanum Gothic Coding', monospace;
+}
 
 /* common for projects, post */
 .markdown-style {
@@ -84,7 +93,6 @@
 
 .markdown-style blockquote {
   text-align: justify;
-  font-style: italic;
   border-left: 4px solid;
   border-right: 4px solid;
   margin-left: calc(-1 * var(--text-spacing));
@@ -117,11 +125,6 @@
   font-size: 1.86rem;
 }
 
-.markdown-style blockquote > p {
-  font-size: 1.48rem;
-  font-weight: 300;
-}
-
 /* bootstrap color overrides */
 /* modify title line height */ 
 .markdown-style > h1,
@@ -136,6 +139,11 @@
 
 .markdown-style .table-striped > tbody > tr:last-child {
   border-bottom-color: var(--markdown-styles-table-border-color);
+}
+
+.markdown-style blockquote > p {
+  font-family: 'Okbi';
+  font-size: 1.7rem;
 }
 
 .markdown-style blockquote {
@@ -171,6 +179,8 @@
 
 /* Quoted text */
 .markdown-style code {
+  //font-family: D2Coding, 'D2 coding', monospace;
+  font-family: 'Nanum Gothic Coding', monospace;
   background-color: var(--markdown-styles-quote-background-color);
   color: var(--markdown-styles-quote-text-color);
   overflow-wrap: break-word;

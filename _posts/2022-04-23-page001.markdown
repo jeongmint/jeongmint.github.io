@@ -9,7 +9,7 @@ title: "[🦫] 블로그 개장"
 # multiple category is not supported
 category: Talk
 # multiple tag entries are possible
-tags: [일상, Github, Markdown, 탈출문]
+tags: [Github, Markdown, Jekyll]
 # thumbnail image for post
 img: ":daily-green.png"
 # disable comments on this page

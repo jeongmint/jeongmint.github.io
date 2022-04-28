@@ -1,0 +1,92 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_page_005
+title: "[Github] Noto Sans 폰트 적용"
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+# author: ""
+# multiple category is not supported
+category: Github
+# multiple tag entries are possible
+tags: [Github, CSS, 웹폰트, D2 Coding, Noto Sans]
+# thumbnail image for post
+img: ":adult00.png"
+# disable comments on this page
+comments_disable: false
+
+# publish date
+date: 2022-04-29 02:18:50 +0900
+
+# seo
+# if not specified, date will be used.
+meta_modify_date: 2022-04-29 02:20:00 +0900
+# check the meta_common_description in _data/lang/[language].yml
+meta_description: "How to Apply Fonts Github Noto Sans, D2 Coding"
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+# published: false
+---
+<!-- outline-start -->
+
+# 깃허브 폰트 적용하기
+
+오늘은 깃허브 블로그에서 `Noto Sans`, `D2 Coding` 과 그 외 웹폰트를 적용하는 방법을 설명해 보겠습니다.  
+
+저는 블로그 전체에서는 `Noto Sans` 로 고딕 계열을 사용하고, 코드 블록에서는 제 최애 코딩 폰트인 `D2 Coding`, 인용구에서는 네이버 나눔손글씨 폰트인 `옥비체`를 사용하겠습니다.  
+
+---
+
+### Noto Sans 전체 폰트 설정
+
+고딕 계열 서체는 가독성이 매우 훌륭합니다. PC와 모바일 어디에서든 편히 읽히며 반듯한 한글 구성으로 눈의 피로도를 낮춰준다고 생각합니다. 다음 코드를 블로그 전체 css를 담당하는 `.css` 파일 상단에 삽입합니다. 저같은 경우에는 `body-main-styles.scss` 최상단에 삽입하였습니다.
+
+```scss
+/* Import Noto Sans Web Fonts */
+/* 한국어 적용 정상 테스트 0는 1이 아님 */
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+/* Apply your blog tags.. */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p { 
+  font-family: 'Noto Sans KR', sans-serif;
+}
+```
+
+<br/>
+
+### D2 Coding 코드 블록 폰트 설정
+
+D2 Coding 은 소문자 l, 숫자 1, 대문자 I 와 같이 헷갈릴 수 있는 문자를 아름답고 가독성 높게 표현합니다. 코드에서 나타나는 한글 폰트 또한 마찬가지 입니다.
+
+```
+
+```
+
+
+<!-- outline-end -->
+
+{{ website_info_text_second }}

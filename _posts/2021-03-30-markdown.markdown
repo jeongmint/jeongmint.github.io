@@ -9,7 +9,7 @@ title: "[Github] Markdown Syntax 기초"
 # multiple category is not supported
 category: Github
 # multiple tag entries are possible
-tags: [Github, Git Blog, Jekyll, Markdown]
+tags: [Github, Jekyll, Markdown]
 # thumbnail image for post
 img: ":cry01.jpg"
 # disable comments on this page

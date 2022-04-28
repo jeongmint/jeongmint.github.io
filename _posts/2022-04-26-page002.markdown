@@ -9,7 +9,7 @@ title: "[Github] gist 다크모드 설정"
 # multiple category is not supported
 category: Github
 # multiple tag entries are possible
-tags: [Github, Dark theme, Gist]
+tags: [Github, Dark theme, Gist, css]
 # thumbnail image for post
 img: ":gist00.png"
 # disable comments on this page
