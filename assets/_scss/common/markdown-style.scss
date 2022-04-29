@@ -179,8 +179,7 @@
 
 /* Quoted text */
 .markdown-style code {
-  //font-family: D2Coding, 'D2 coding', monospace;
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: D2Coding, 'D2 coding', monospace;
   background-color: var(--markdown-styles-quote-background-color);
   color: var(--markdown-styles-quote-text-color);
   overflow-wrap: break-word;
