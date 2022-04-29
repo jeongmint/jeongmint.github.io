@@ -11,7 +11,7 @@ category: Houdini
 # multiple tag entries are possible
 tags: [VFX, Houdini]
 # thumbnail image for post
-img: ":houdini00.png"
+img: ":houdini11.png"
 # disable comments on this page
 comments_disable: false
 
@@ -20,7 +20,7 @@ date: 2022-04-29 12:22:50 +0900
 
 # seo
 # if not specified, date will be used.
-meta_modify_date: 2022-04-29 12:23:04 +0900
+meta_modify_date: 2022-04-29 13:30:04 +0900
 # check the meta_common_description in _data/lang/[language].yml
 meta_description: "How to download Houdini for free"
 
@@ -44,7 +44,7 @@ meta_description: "How to download Houdini for free"
 
 ### Houdini 런처 다운로드
 
-후디니는 [SideFX](https://www.sidefx.com/download/) 사의 소프트웨어입니다. 저는 런처에서 프로그램을 돌리는 안정감을 좋아하기 때문에 로그인 한 뒤 위의 링크로 들어가 런처를 다운받습니다.
+후디니는 캐나다 [SideFX](https://www.sidefx.com/download/) 사의 소프트웨어입니다. 저는 런처에서 프로그램을 돌리는 안정감을 좋아하기 때문에 로그인 한 뒤 위의 링크로 들어가 런처를 다운받습니다.
 
 ![Houdini 다운로드](:houdini01.png){:data-align="center"} 
 
@@ -86,8 +86,29 @@ OK 버튼으로 닫은 후 그 뒤에 켜져 있는 창에서 가장 첫 번째 
 
 ![Houdini 다운로드](:houdini11.png){:data-align="center"} 
 
+<br/>
+
+### Houdini Apprentice License
+
+후디니 학생용 라이선스 격인 무료 라이센스 Apprentice License 의 제한된 특징은 다음과 같습니다. 아무래도 유료 버전과 차이를 두는 것이 맞을 것 같습니다. 무료 버전이지만 기본적으로 후디니의 거의 모든 노드와 기능들을 지원합니다.
+
+1. 1280 x 720 이상의 화질 렌더링 불가
+
+2. 렌더링 시 우측 하단에 워터마크 삽입
+
+3. Third party 의 렌더러(`Arnold`, `Vray` 등)을 사용할 수 없고 내부적으로 제공되는 `Mantra` 렌더러만 이용 가능
+
+4. Alembic cache로 export 불가
+
+---
+
+다음 블로그를 참조하여 작성하였습니다.
+
+[크로와상킬러 - 후디니 독학 방법 및 다운로드 방법](https://m.blog.naver.com/wwwjoocom3/221512013405)
+
 
 <br/>
+
 <!-- outline-end -->
 
 {{ website_info_text_second }}
