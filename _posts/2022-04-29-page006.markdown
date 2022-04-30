@@ -56,7 +56,7 @@ meta_description: "How to download Houdini for free"
 
 ### 런처 실행과 Houdini Daily Build
 
-런처를 실행시킵니다. 로그인한 후 Install 을 눌러 진행합니다. 저는 __무료 버전__ 을 사용할 것이기에 Apprentice 버전을 지원하는 __Daily Build 19.0.602__ 를 다운 받습니다.
+런처를 실행시킵니다. 로그인한 후 Install 을 눌러 진행합니다. 더 안정적인 버전을 지원하는 __Production Build 19.0.589__ 를 다운 받습니다. Daily Build 는 Testing 환경의 버전이라고 합니다.
 
 ![Houdini 다운로드](:houdini04.png){:data-align="center"} 
 
