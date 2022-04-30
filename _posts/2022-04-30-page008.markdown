@@ -1,0 +1,57 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_page_008
+title: "[Github] bundler: not executable: jekyll 해결"
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+# author: ""
+# multiple category is not supported
+category: Github
+# multiple tag entries are possible
+tags: [Github, error, bundler, Jekyll]
+# thumbnail image for post
+img: ":error00.png"
+# disable comments on this page
+comments_disable: false
+
+# publish date
+date: 2022-04-29 02:18:50 +0900
+
+# seo
+# if not specified, date will be used.
+meta_modify_date: 2022-04-29 02:20:00 +0900
+# check the meta_common_description in _data/lang/[language].yml
+meta_description: "bundler: not executable: jekyll solved"
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+# published: false
+---
+<!-- outline-start -->
+
+# bundler: not executable: jekyll 에러
+
+깃허브 블로그를 열심히 포스팅 하는 중 종종 저는 git bash를 돌릴 때 __bundler: not executable__ 라는 에러를 마주합니다. 아니, Jekyll을 실행하고 있는데 Jekyll을 실행할 수 없다니.. 컴퓨터 양반...^*^
+
+---
+
+### 해결 방법
+
+제가 여러가지를 해보았습니다만 해결 방법은 간단합니다.
+
+> 컴퓨터 다시 시작
+
+이것 만큼 확실한 것이 없습니다. 귀찮더라도 다시 컴퓨터를 재시작 하도록 합시다. 처음에는 `bundle update` 후 `bundle install` 해봐도 안 되길래 다음날 자연스레 실행되는 것을 보고 알았습니다. 더 확실하고 편한 방법이 있다면 알려주시면 감사하겠습니다😃
+
+<!-- outline-end -->
+
+{{ website_info_text_second }}
