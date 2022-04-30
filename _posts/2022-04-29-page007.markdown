@@ -16,7 +16,7 @@ img: ":houdini11.png"
 comments_disable: false
 
 # publish date
-date: 2022-04-29 15:03:50 +0900
+date: 2022-04-30 18:03:50 +0900
 
 # seo
 # if not specified, date will be used.

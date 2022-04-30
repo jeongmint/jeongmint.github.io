@@ -6,12 +6,6 @@
   font-style: normal;
 }
 
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
-
-.nanumgothiccoding * {
- font-family: 'Nanum Gothic Coding', monospace;
-}
-
 /* common for projects, post */
 .markdown-style {
   @include get_scheme(markdown-style-colors-);
@@ -153,9 +147,14 @@
 }
 
 .markdown-style kbd {
+  font-family: D2Coding, 'D2 coding', monospace;
   background-color: var(--markdown-styles-kbd-background-color);
   color: var(--markdown-styles-kbd-text-color);
   box-shadow: revert;
+}
+
+.markdown-style code {
+  font-family: D2Coding, 'D2 coding', monospace;
 }
 
 /* code */
