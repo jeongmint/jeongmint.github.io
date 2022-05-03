@@ -20,7 +20,7 @@ date: 2022-04-30 18:03:50 +0900
 
 # seo
 # if not specified, date will be used.
-meta_modify_date: 2022-04-29 16:03:56 +0900
+meta_modify_date: 2022-04-30 20:03:50 +0900
 # check the meta_common_description in _data/lang/[language].yml
 meta_description: "How to make Fog volumes in Houdini VFX"
 
