@@ -9,7 +9,7 @@ title: "[Houdini] 후디니 무료 다운로드"
 # multiple category is not supported
 category: Houdini
 # multiple tag entries are possible
-tags: [VFX, Houdini]
+tags: [VFX, Houdini, Install]
 # thumbnail image for post
 img: ":houdini11.png"
 # disable comments on this page
