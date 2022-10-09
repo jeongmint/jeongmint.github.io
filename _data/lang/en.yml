@@ -171,8 +171,8 @@ privacy-policy:
 
 auto_content:
   # title: TA는 정말 어떻게 되는 걸까?
-  greeting: Technical Artist |
-  text: UE5(UE4), 그래픽 최적화, Shader(HLSL/GLSL), VFX(Houdini), MAYA 를 공부합니다🐤
+  greeting: Technical Artist | a.k.a Jeongmint
+  text: UE5(UE4), 그래픽 최적화, VFX(Houdini), MAYA, Web 등 Graphics/Content Tool 을 공부합니다.
   # more_info: Learn More.
   auto_generated_text: 주니어 TA로 살아남기...
 
