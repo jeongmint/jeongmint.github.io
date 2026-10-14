@@ -124,7 +124,7 @@ post-list:
 
 # for home layout
 home:
-  title: UE5 수련장
+  title: 이것저것 그래픽스
   button_name: Home
   new_posts_title: ▾ 새로운 게시글 🌵
   new_posts_show_more_button: 더 보기 ...
@@ -143,7 +143,7 @@ archives:
 about:
   title: Me
   button_name: Me
-  sub_title: "Junior Technical Artist"
+  sub_title: "Graphics Developer · 이것저것 만드는 사람"
   email_title: email
 
 # for links layout
@@ -167,14 +167,14 @@ privacy-policy:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-# meta_common_description: Technical Artist | UE5 수련장
+meta_common_description: Graphics Developer | 셰이더, WebGL, 게임, 툴 이것저것
 
 auto_content:
   # title: TA는 정말 어떻게 되는 걸까?
-  greeting: Technical Artist | a.k.a Jeongmint
-  text: UE5(UE4), 그래픽 최적화, VFX(Houdini), MAYA, Web 등 Graphics/Content Tool 을 공부합니다.
+  greeting: Graphics Developer | a.k.a Jeongmint
+  text: 셰이더, WebGL(Three.js), 절차적 사운드, 3D 모델링, 툴까지. 화면에 뭔가 예쁘게 띄우는 일이라면 이것저것 다 만듭니다.
   # more_info: Learn More.
-  auto_generated_text: 주니어 TA로 살아남기...
+  auto_generated_text: 요즘 만드는 것 → 52Hz 고래 게임 From. Whale 🐋
 
 
 cookie_consent:

@@ -36,13 +36,22 @@ icon: "fa fa-user-circle"
 
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+## 안녕하세요, 정민입니다 👋
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+**이것저것 하는 그래픽스 개발자**입니다. 한때는 UE5 테크니컬 아티스트를 꿈꿨고, 지금은 브라우저에서 돌아가는 실시간 그래픽스를 주로 만듭니다.
 
-{{ website_info_text_second }}
+### 요즘 하는 것
 
-Test
+- **실시간 렌더링**: Three.js · WebGL, GLSL 셰이더, 바다와 밤하늘, 블룸과 포스트 프로세싱
+- **게임**: 기획부터 대사, 레벨, 밸런스까지 혼자 굴려 보기
+- **사운드**: 파일 없이 WebAudio로 합성하는 음악과 효과음
+- **3D 에셋**: 모델링, 텍스처, glTF 최적화, 코드로 모델 만들기(Python)
+- **웹**: 반응형 UI, 모바일 대응, 다국어, 서버리스(Netlify)
 
----
+### 만든 것
+
+- 🐋 **[From. Whale](https://from-whale.netlify.app/game/)**: 52Hz로 노래하는 고래 헤이즐의 바다 모험 게임 · [개발 일지](/posts/2026-10-12-page014) · [GitHub](https://github.com/jeongmint/from-whale)
+
+### 예전에 하던 것
+
+UE5(UE4), Houdini VFX, Maya, 그래픽 최적화. 이 블로그의 2022년 글들이 그 흔적입니다.
