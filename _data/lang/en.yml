@@ -148,10 +148,10 @@ about:
 
 # for links layout
 links:
-  title: Links
-  button_name: Links
-  link_text: Web site
-  info_text: Info
+  title: 만든 것
+  button_name: 만든 것
+  link_text: 이름
+  info_text: 소개
 
 # for projects layout
 projects:
