@@ -31,13 +31,13 @@ creative_commons:
 contacts:
   - github: "jeongmint"
   - email: "tangerine_t@naver.com"
-  #- linkedin: ""
+  - linkedin: "in/jeong-min-choi-72555423b"
   #- twitter: ""
-  - instagram: "jminnisfree"
+  #- instagram: "jminnisfree"
   #- youtube: ""
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
-  - behance: "jeongminchoi3"
+  #- behance: "jeongminchoi3"
 
 # Disqus Short name, make sure comments and disqus are enabled in _data/conf/posts.yml file
 disqus_shortname: "jeongmint"

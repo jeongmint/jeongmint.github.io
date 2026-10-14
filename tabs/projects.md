@@ -24,6 +24,7 @@ icon: "fa fa-file-image-o"
 image_viewer_on: true
 # if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
 image_lazy_loader_on: true
+published: false
 # exclude from on site search
 #on_site_search_exclude: true
 # exclude from search engines
