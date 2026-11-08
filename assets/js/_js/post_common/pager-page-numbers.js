@@ -22,7 +22,7 @@
   const properties = {};
   properties.paginatorListContainerName = "";
   /* if auto is set, auto will take over. */
-  properties.pageCountLimit = 5;
+  properties.pageCountLimit = 3;
   /* this will calculate max button count, which will be shown depending on page width */
   properties.autoLimit = true;
   properties.refreshDelay = 300;
@@ -118,6 +118,8 @@
     if (properties.autoLimit === true) {
       pageCountLimit = ($(document).width() / properties.approxButtonWidth);
       pageCountLimit = Math.ceil(pageCountLimit);
+      /* never show more than pageCountLimit numbers, even on wide screens */
+      if (pageCountLimit > properties.pageCountLimit) pageCountLimit = properties.pageCountLimit;
     }
 
     if (pageCountLimit > pageList.length) pageCountLimit = pageList.length;
