@@ -43,6 +43,9 @@ page_data:
     - title: "App"
       type: id_app
       color: "#6F8C4F"
+    - title: "Tool"
+      type: id_tool
+      color: "#4F6F8C"
 
   list:
     - type: id_game
@@ -53,5 +56,9 @@ page_data:
       title: "🌱 SCOO Camera"
       url: "https://github.com/jeongmint/scoo-camera"
       info: "사진을 찍을 때마다 마리모가 자라는 iOS 빈티지 카메라 앱"
+    - type: id_tool
+      title: "🧊 oky-generator"
+      url: "https://github.com/jeongmint/oky-generator"
+      info: "그림 한 장을 3D 메시로. 블렌더 애드온 + 로컬 TripoSR 백엔드"
 
 ---
