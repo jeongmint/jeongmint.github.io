@@ -34,17 +34,24 @@ icon: "fa fa-cube"
 page_data:
   main:
     header: "만든 것"
-    info: "직접 만든 것들. 눌러서 바로 플레이"
+    info: "직접 만든 것들. 눌러서 구경하기"
 
   category:
     - title: "Game"
       type: id_game
       color: "#4F8C6F"
+    - title: "App"
+      type: id_app
+      color: "#6F8C4F"
 
   list:
     - type: id_game
       title: "🐋 From. Whale"
       url: "https://from-whale.netlify.app/"
       info: "52Hz로 노래하는 고래 헤이즐의 바다 모험 게임. 설치 없이 브라우저에서 (PC · 폰)"
+    - type: id_app
+      title: "🌱 SCOO Camera"
+      url: "https://github.com/jeongmint/scoo-camera"
+      info: "사진을 찍을 때마다 마리모가 자라는 iOS 빈티지 카메라 앱"
 
 ---
